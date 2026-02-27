@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東北大学医学部医学科 2026年度新入生ポータル</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome -->
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>東北大学医学部医学科 <span class="highlight">2026</span></h1>
+            <button class="hamburger-btn" type="button" aria-label="メニューを開閉" aria-expanded="false"
+                aria-controls="site-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    <li><a href="#hero">ホーム</a></li>
+                    <li><a href="#schedule">スケジュール</a></li>
+                    <li><a href="#curriculum">カリキュラム</a></li>
+                    <li><a href="#life">学生生活</a></li>
+                    <li><a href="course_guide.html">履修</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Tohoku Med 2026</h2>
+            <p>新入生の皆さん、合格おめでとうございます！</p>
+            <p>学生有志による新入生向け情報ポータルです。</p>
+            <div class="countdown">
+                <p>入学式まであと <span id="days-left">--</span> 日</p>
+            </div>
+            <a href="#schedule" class="btn">スケジュールを確認する</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="news" class="card reveal">
+            <h3><i class="fas fa-bullhorn"></i> 更新履歴</h3>
+            <div class="news-list">
+                <div class="news-item">
+                    <span class="news-date">2026.02.27</span>
+                    <span class="news-content">HPを公開しました。</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="card reveal">
+            <h3><i class="fas fa-calendar-alt"></i> 今後のスケジュール（予定は変更の可能性があります）</h3>
+            <ul class="timeline">
+                <li>
+                    <span class="date">2026.04.03 </span>
+                    <div class="content">
+                        <h4>入学式</h4>
+                        <p>場所：ゼビオアリーナ仙台<br>時間：9:45〜10:20</p>
+                        <a href="https://www.tohoku.ac.jp/japanese/2026/01/event20260116-01-ceremony.html"
+                            target="_blank" class="official-link">
+                            <i class="fas fa-external-link-alt"></i> 大学公式情報はこちら
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="curriculum" class="card reveal">
+            <h3><i class="fas fa-book-medical"></i> 1年次のカリキュラム</h3>
+            <div class="grid-2">
+                <div class="sub-card">
+                    <h4>医学専門科目（抜粋）</h4>
+                    <ul>
+                        <li><strong>医学・医療入門／行動科学</strong>：通年。早期医療体験実習など。</li>
+                        <li><strong>遺伝学</strong>：9月〜。ゲノム医学の基礎。</li>
+                        <li><strong>医化学</strong>：9月〜。生体分子の代謝。</li>
+                        <li><strong>免疫学</strong>：9月〜。免疫系の仕組み。</li>
+                        <li><strong>解剖学・生理学序説</strong>：12月〜。人体の構造と機能の基礎。</li>
+                    </ul>
+                </div>
+                <div class="sub-card stagger-item">
+                    <h4>全学教育科目</h4>
+                    <p>川内キャンパスで実施。語学、理系基礎、人文社会科学など幅広い教養を学びます。</p>
+                    <p style="margin-top: 10px;">
+                        <a href="course_guide.html" style="color: #667eea; text-decoration: none; font-weight: 600;">
+                            <i class="fas fa-arrow-right"></i> 履修ガイドを見る
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="laptop" class="card reveal">
+            <h3><i class="fas fa-laptop"></i> ノートパソコン・準備物</h3>
+            <div class="alert">
+                <strong><i class="fas fa-info-circle"></i> PC・タブレットについて</strong>
+                <p>オンライン授業やレポート作成のため、ノートPCが必要です。医学科では講義資料が電子配布されるため、iPadなどのタブレットも推奨されています。</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="sub-card">
+                    <h4>推奨スペック（目安）</h4>
+                    <ul class="specs">
+                        <li><strong>CPU</strong>: Core i5 / Ryzen 5以上</li>
+                        <li><strong>メモリ</strong>: 8GB以上（16GB推奨）</li>
+                        <li><strong>SSD</strong>: 256GB以上</li>
+                        <li><strong>OS</strong>: Windows / Mac どちらでもOK</li>
+                    </ul>
+                </div>
+                <div class="sub-card">
+                    <h4>購入時期と場所</h4>
+                    <p><strong>購入時期</strong>：入学式後のITオリエンテーション前まで</p>
+                    <p><strong>購入場所</strong>：メーカー直販（学割あり）、大学生協、家電量販店など</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="pc_guide.html" class="btn"
+                    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                    <i class="fas fa-info-circle"></i> 詳しいPC購入ガイドを見る
+                </a>
+            </div>
+        </section>
+
+        <section id="life" class="card">
+            <h3><i class="fas fa-users"></i> 学生生活ガイド</h3>
+            <p style="margin-bottom: 20px;">新入生の皆さんが気になる学生生活のあれこれをまとめました。</p>
+
+            <div class="grid-2">
+                <a href="freshman_life.html" class="sub-card link-card">
+                    <h4><i class="fas fa-heartbeat" style="color: #667eea;"></i> 生活・健康</h4>
+                    <p>一人暮らしのコツ、アルバイト事情、メンタルヘルスなど</p>
+                    <div style="text-align: right; margin-top: 10px; color: #667eea;"><i class="fas fa-arrow-right"></i>
+                        詳細を見る</div>
+                </a>
+
+                <a href="club_guide.html" class="sub-card link-card">
+                    <h4><i class="fas fa-futbol" style="color: #667eea;"></i> 部活・サークル</h4>
+                    <p>医学部部活と全学サークルの違い、新歓情報など</p>
+                    <div style="text-align: right; margin-top: 10px; color: #667eea;"><i class="fas fa-arrow-right"></i>
+                        詳細を見る</div>
+                </a>
+
+                <a href="research.html" class="sub-card link-card">
+                    <h4><i class="fas fa-flask" style="color: #667eea;"></i> 研究活動</h4>
+                    <p>1年生からの研究室訪問、メリット、おすすめプログラム</p>
+                    <div style="text-align: right; margin-top: 10px; color: #667eea;"><i class="fas fa-arrow-right"></i>
+                        詳細を見る</div>
+                </a>
+
+                <a href="report_guide.html" class="sub-card link-card">
+                    <h4><i class="fas fa-pen-fancy" style="color: #667eea;"></i> レポートの書き方</h4>
+                    <p>絶対に守るべきルール、構成の作り方、剽窃について</p>
+                    <div style="text-align: right; margin-top: 10px; color: #667eea;"><i class="fas fa-arrow-right"></i>
+                        詳細を見る</div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 東北大学医学部新入生情報 (非公式)</p>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chat-widget">
+        <div id="chat-header">
+            <span><i class="fas fa-robot"></i> 新入生サポートAI</span>
+            <button id="close-chat">×</button>
+        </div>
+        <div id="chat-body">
+            <div class="message bot">
+                こんにちは！新入生の皆さん、合格おめでとうございます。
+                スケジュールやパソコンのことなど、何か質問はありますか？
+            </div>
+        </div>
+        <div id="chat-input-area">
+            <input type="text" id="user-input" placeholder="質問を入力...">
+            <button id="send-btn">送信</button>
+        </div>
+    </div>
+    <button id="chat-toggle-btn"><i class="far fa-comments"></i> 質問する</button>
+
+    <script src="js/qa_data.js"></script>
+    <script src="js/agent.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>
