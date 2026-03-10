@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間割作成 - 東北大学医学部医学科 2026年度新入生ポータル</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">東北大学医学部医学科 <span class="highlight">2026</span></a></h1>
+            <button class="hamburger-btn" type="button" aria-label="メニューを開閉" aria-expanded="false" aria-controls="site-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="timetable.html">時間割作成</a></li>
+                    <li><a href="course_guide.html">履修</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="timetable-builder" class="card">
+            <h3><i class="fas fa-file-pdf"></i> 時間割作成・PDF出力（1セメ + 2セメ同時選択）</h3>
+            <p class="timetable-description">1セメと2セメを同時に選択して、合計単位をまとめて計算できます。</p>
+            <p class="timetable-source">
+                参照元：
+                <a href="https://www2.he.tohoku.ac.jp/center/keiji/info/jikanwari_2025_11.pdf" target="_blank" rel="noopener noreferrer">公式時間割PDF</a>
+                / <a href="https://www.med.tohoku.ac.jp/wp-content/uploads/2025/04/r7_binran.pdf" target="_blank" rel="noopener noreferrer">令和7年度 学生便覧</a>
+            </p>
+
+            <div class="timetable-controls">
+                <button id="reset-timetable" class="btn btn-secondary" type="button">全体リセット</button>
+                <button id="download-timetable-pdf" class="btn" type="button">PDFをダウンロード</button>
+            </div>
+
+            <div class="mobile-preview-panel">
+                <div class="mobile-preview-header">
+                    <h4>スマホ1画面プレビュー</h4>
+                    <button id="toggle-mobile-preview" class="btn btn-secondary" type="button">プレビューを表示</button>
+                </div>
+                <div id="mobile-preview-body" class="mobile-preview-body" hidden>
+                    <div class="mobile-preview-switch">
+                        <button type="button" class="preview-semester-btn is-active" data-preview-semester="1q_1sem">1セメ</button>
+                        <button type="button" class="preview-semester-btn" data-preview-semester="2q_2sem">2セメ</button>
+                    </div>
+                    <div id="mobile-preview-grid" class="mobile-preview-grid"></div>
+                </div>
+            </div>
+
+            <div class="dual-semester-grid">
+                <section class="semester-panel">
+                    <h4>1年次第1学期（1セメ）</h4>
+                    <div class="table-wrap">
+                        <table class="timetable-grid">
+                            <thead>
+                                <tr>
+                                    <th>時限</th>
+                                    <th>月</th>
+                                    <th>火</th>
+                                    <th>水</th>
+                                    <th>木</th>
+                                    <th>金</th>
+                                </tr>
+                            </thead>
+                            <tbody id="timetable-grid-body-1sem"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="semester-panel">
+                    <h4>1年次第2学期（2セメ）</h4>
+                    <div class="table-wrap">
+                        <table class="timetable-grid">
+                            <thead>
+                                <tr>
+                                    <th>時限</th>
+                                    <th>月</th>
+                                    <th>火</th>
+                                    <th>水</th>
+                                    <th>木</th>
+                                    <th>金</th>
+                                </tr>
+                            </thead>
+                            <tbody id="timetable-grid-body-2sem"></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <p id="timetable-data-note" class="timetable-note"></p>
+            <div id="credit-summary" class="credit-summary"></div>
+
+            <div class="selected-courses">
+                <h4>選択科目一覧（1セメ+2セメ統合）</h4>
+                <ul id="selected-course-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 東北大学医学部新入生情報 (非公式)</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+    <script src="js/timetable_page.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>

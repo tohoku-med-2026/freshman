@@ -58,6 +58,384 @@ table td {
     color: #1f2d3d;
 }
 
+#timetable-builder .timetable-description {
+    margin-bottom: 6px;
+}
+
+#timetable-builder .timetable-source {
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+    color: #455a6f;
+}
+
+#timetable-builder .timetable-source a {
+    color: #1d5fa7;
+    text-decoration: underline;
+}
+
+.timetable-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.timetable-controls label {
+    font-weight: 600;
+}
+
+.timetable-controls select {
+    border: 1px solid var(--line-strong);
+    border-radius: 8px;
+    padding: 8px 10px;
+    background: #fff;
+    color: #1f2d3d;
+}
+
+.btn-secondary {
+    background: #eef3f8;
+    color: #1f2d3d;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.timetable-grid {
+    display: table;
+    width: max(100%, 920px);
+    table-layout: fixed;
+}
+
+.timetable-grid th,
+.timetable-grid td {
+    min-width: 0;
+    vertical-align: top;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.timetable-grid th:first-child,
+.timetable-grid td:first-child {
+    width: 64px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.timetable-select {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    border: 1px solid var(--line-strong);
+    border-radius: 8px;
+    padding: 7px 8px;
+    font-size: 0.9rem;
+    color: #1f2d3d;
+    background: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.locked-slot-cell {
+    background: linear-gradient(135deg, #eef2f7, #e2e9f2);
+    color: #44576b;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.locked-slot-label {
+    display: inline-block;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    font-weight: 700;
+}
+
+.timetable-cell.cat-foundation {
+    background: #fff4dd;
+}
+
+.timetable-cell.cat-advanced {
+    background: #eaf6ff;
+}
+
+.timetable-cell.cat-language {
+    background: #eaf9ec;
+}
+
+.timetable-cell.cat-academic {
+    background: #f2edff;
+}
+
+.timetable-cell.cat-other {
+    background: #f4f6f8;
+}
+
+.timetable-cell.is-active-cell {
+    outline: 3px solid #1d5fa7;
+    outline-offset: -3px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+}
+
+.timetable-note {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #44576b;
+}
+
+.mobile-preview-panel {
+    margin-bottom: 14px;
+    border: 1px solid var(--line-soft);
+    border-radius: 12px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.mobile-preview-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mobile-preview-header h4 {
+    margin: 0;
+}
+
+.mobile-preview-body {
+    margin-top: 10px;
+}
+
+.mobile-preview-switch {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.preview-semester-btn {
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    padding: 6px 12px;
+    background: #ffffff;
+    color: #1f2d3d;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.preview-semester-btn.is-active {
+    background: #1d5fa7;
+    color: #ffffff;
+}
+
+.mobile-preview-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 38px repeat(5, minmax(0, 1fr));
+    border: 1px solid var(--line-strong);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mobile-preview-cell {
+    border-right: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    padding: 4px 3px;
+    background: #ffffff;
+    min-height: 52px;
+    font-size: 0.72rem;
+    line-height: 1.25;
+    word-break: break-word;
+}
+
+.mobile-preview-cell:nth-child(6n) {
+    border-right: none;
+}
+
+.mobile-preview-cell.is-head {
+    min-height: 32px;
+    background: #eaf2fa;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mobile-preview-cell.is-period {
+    text-align: center;
+    font-weight: 700;
+    background: #f3f7fb;
+}
+
+.mobile-preview-cell.is-locked {
+    background: #eef2f7;
+    color: #4b5d70;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mobile-preview-cell.cat-foundation {
+    background: #fff4dd;
+}
+
+.mobile-preview-cell.cat-advanced {
+    background: #eaf6ff;
+}
+
+.mobile-preview-cell.cat-language {
+    background: #eaf9ec;
+}
+
+.mobile-preview-cell.cat-academic {
+    background: #f2edff;
+}
+
+.mobile-preview-cell.cat-other {
+    background: #f4f6f8;
+}
+
+.mobile-preview-course-name {
+    display: block;
+}
+
+.mobile-preview-course-code {
+    display: block;
+    color: #4b5d70;
+    font-size: 0.67rem;
+}
+
+.credit-summary {
+    margin-top: 14px;
+    padding: 12px;
+    border: 1px solid var(--line-soft);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.credit-summary table {
+    display: table;
+    overflow: visible;
+    width: 100%;
+}
+
+.credit-summary th,
+.credit-summary td {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+}
+
+.credit-summary .ok {
+    color: #1f7a39;
+    font-weight: 700;
+}
+
+.credit-summary .ng {
+    color: #9d2f2f;
+    font-weight: 700;
+}
+
+.credit-summary .credit-subnote {
+    margin: 10px 0 6px;
+    font-size: 0.86rem;
+    color: #44576b;
+}
+
+.credit-summary tr.summary-cat-foundation td {
+    background: #fff4dd;
+}
+
+.credit-summary tr.summary-cat-advanced td {
+    background: #eaf6ff;
+}
+
+.credit-summary tr.summary-cat-language td {
+    background: #eaf9ec;
+}
+
+.credit-summary tr.summary-cat-academic td {
+    background: #f2edff;
+}
+
+.selected-courses {
+    margin-top: 12px;
+}
+
+.selected-courses h4 {
+    margin-bottom: 8px;
+}
+
+.selected-courses ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.selected-courses li {
+    margin-bottom: 6px;
+}
+
+.selected-courses li.selected-group-header {
+    list-style: none;
+    margin: 12px 0 6px;
+    padding: 6px 10px;
+    border-left: 4px solid #1d5fa7;
+    background: rgba(29, 95, 167, 0.08);
+    font-weight: 700;
+}
+
+.selected-courses li.selected-day-header {
+    list-style: none;
+    margin: 8px 0 4px;
+    padding-left: 2px;
+    color: #36506a;
+    font-weight: 700;
+}
+
+.dual-semester-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.semester-panel {
+    border: 1px solid var(--line-soft);
+    border-radius: 12px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.semester-panel h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.semester-panel .timetable-grid th,
+.semester-panel .timetable-grid td {
+    min-width: 0;
+}
+
+.semester-panel .timetable-select {
+    font-size: 0.95rem;
+    padding: 9px 10px;
+}
+
+.selected-courses a {
+    color: #1d5fa7;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.selected-courses a:hover {
+    color: #144a84;
+}
+
+.selected-courses a:visited {
+    color: #5b3d86;
+}
+
+.selected-courses li {
+    overflow-wrap: anywhere;
+}
+
 @keyframes gradientShift {
     0% {
         background-position: 0% 50%;
@@ -970,8 +1348,9 @@ footer {
     }
 
     .container {
-        width: min(94%, 1000px);
-        padding: 12px 0;
+        width: 100%;
+        max-width: none;
+        padding: 12px 10px;
     }
 
     header .container {
@@ -1086,6 +1465,77 @@ footer {
     table th,
     table td {
         white-space: nowrap;
+    }
+
+    #timetable-builder .timetable-grid th,
+    #timetable-builder .timetable-grid td {
+        white-space: normal;
+    }
+
+    #timetable-builder .timetable-grid {
+        width: max(100%, 760px);
+    }
+
+    #timetable-builder .mobile-preview-header {
+        flex-wrap: wrap;
+    }
+
+    #timetable-builder .mobile-preview-header .btn {
+        width: 100%;
+    }
+
+    #timetable-builder .mobile-preview-grid {
+        grid-template-columns: 32px repeat(5, minmax(0, 1fr));
+    }
+
+    #timetable-builder .mobile-preview-cell {
+        min-height: 46px;
+        font-size: 0.66rem;
+        padding: 4px 2px;
+    }
+
+    #timetable-builder .mobile-preview-cell.is-head {
+        min-height: 28px;
+        font-size: 0.72rem;
+    }
+
+    #timetable-builder .mobile-preview-course-code {
+        font-size: 0.62rem;
+    }
+
+    #timetable-builder .semester-panel {
+        padding: 12px;
+    }
+
+    #timetable-builder .semester-panel .timetable-grid th,
+    #timetable-builder .semester-panel .timetable-grid td {
+        font-size: 0.84rem;
+        padding: 6px;
+    }
+
+    #timetable-builder .semester-panel .timetable-select {
+        font-size: 0.8rem;
+        padding: 6px 7px;
+    }
+
+    #credit-summary table {
+        table-layout: fixed;
+    }
+
+    #credit-summary th,
+    #credit-summary td {
+        white-space: normal;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+        font-size: 0.8rem;
+        padding: 6px 4px;
+        line-height: 1.35;
+    }
+
+    #credit-summary th:first-child,
+    #credit-summary td:first-child {
+        width: 48%;
+        text-align: left;
     }
 
     #chat-toggle-btn {
