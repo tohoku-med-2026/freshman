@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サークル紹介一覧（2026） - 東北大学医学部</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="clubs-directory-page">
+    <header>
+        <div class="container">
+            <button class="hamburger-btn" type="button" aria-label="メニューを開閉" aria-expanded="false" aria-controls="site-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="timetable.html">時間割作成</a></li>
+                    <li><a href="course_guide.html">履修ガイド</a></li>
+                    <li><a href="club_guide.html">部活ガイド</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card clubs-directory-shell">
+            <div class="clubs-hero">
+                <p class="clubs-eyebrow">Tohoku Med Clubs 2026</p>
+                <h2><i class="fas fa-users"></i> サークル紹介一覧</h2>
+                <p class="clubs-lead">公式確認データをもとに、医学部サークル情報を一覧化しています。</p>
+                <div id="clubs-stats" class="clubs-stats"></div>
+            </div>
+
+            <div class="clubs-controls">
+                <input id="club-search-input" type="search" placeholder="サークル名・活動概要・確認状況で検索">
+                <div id="club-category-filters" class="clubs-filter-chips"></div>
+            </div>
+
+            <p id="club-result-count" class="clubs-result-count"></p>
+            <div id="club-list-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 東北大学医学部新入生情報 (非公式)</p>
+    </footer>
+
+    <script src="js/clubs_directory.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>

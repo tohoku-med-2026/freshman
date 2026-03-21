@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const previewSemesterButtons = document.querySelectorAll('.preview-semester-btn');
 
     const storageKey = 'tohoku_med_semester_selections_v2';
-    const syllabusYear = '2025';
+    const syllabusYear = '2026';
     let currentPreviewSemester = '1q_1sem';
 
     const primaryCreditRequirements = [
@@ -170,7 +170,51 @@ document.addEventListener('DOMContentLoaded', () => {
         { code: 'CB55206', name: 'キャリア教育特別講義（ジャーナリズムと社会）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
         { code: 'CB55207', name: 'キャリア教育特別講義（口腔保健学総論）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
         { code: 'CB55210', name: 'SDGs入門', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
-        { code: 'CB55211', name: 'アルゴリズミック思考の基礎', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] }
+        { code: 'CB55211', name: 'アルゴリズミック思考の基礎', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
+        { code: 'CB13206', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB13214', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB13215', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB13216', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB13217', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB13218', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB13219', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },
+        { code: 'CB14204', name: '伝統文化と哲学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },
+        { code: 'CB14212', name: '現代経済法の基礎理論', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },
+        { code: 'CB14213', name: '現代経済法の基礎理論', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },
+        { code: 'CB15201', name: 'ナノ・マイクロ科学概論', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB15202', name: '汎用的技能ワークショップ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB15203', name: '多文化特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB15204', name: 'グローバル特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB15206', name: 'Jヴィレッジ訪問', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB15207', name: 'キャリアデザインA', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB15208', name: '数理統計学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },
+        { code: 'CB23206', name: '日本国憲法', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },
+        { code: 'CB23207', name: '文化と社会の探求', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },
+        { code: 'CB23208', name: '多文化間コミュニケーション', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },
+        { code: 'CB23209', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },
+        { code: 'CB23210', name: 'グローバル特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },
+        { code: 'CB24206', name: '天文学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },
+        { code: 'CB24207', name: '数理統計学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },
+        { code: 'CB24212', name: '現代経済法の基礎理論', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },
+        { code: 'CB24213', name: '多文化社会の探求', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },
+        { code: 'CB31220', name: '経済学入門A', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },
+        { code: 'CB31229', name: '物理学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },
+        { code: 'CB32207', name: '物理学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },
+        { code: 'CB32208', name: '化学基礎論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },
+        { code: 'CB32209', name: '解析学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },
+        { code: 'CB32210', name: '文化理解', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },
+        { code: 'CB34201', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },
+        { code: 'CB34204', name: 'キャリア関連', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },
+        { code: 'CB34205', name: '日本文化論', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },
+        { code: 'CB54208', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },
+        { code: 'CB54209', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },
+        { code: 'CB54210', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },
+        { code: 'CB55212', name: 'グローバルリーダーシップ論', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
+        { code: 'CB55213', name: 'アントレプレナーシップ思考', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
+        { code: 'CB55214', name: 'グローバル特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
+        { code: 'CB55215', name: '体育学のすすめ', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
+        { code: 'CB55216', name: 'SDGs入門', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },
+        { code: 'CB55217', name: 'アルゴリズミック思考の基礎', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] }
     ];
 
     const linkedInitialLanguageMap = {
@@ -776,7 +820,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    note.textContent = '1セメ・2セメを同時に選択し、合算単位で進捗管理できます。初修語I/IIは連動します。';
+    note.textContent = '1セメ・2セメを同時に選択し、合算単位で進捗管理できます（2026年度版）。初修語I/IIは連動します。';
 
     loadSelections();
     renderSemesterGrid('1q_1sem');
