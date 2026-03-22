@@ -1,0 +1,707 @@
+{
+  "total": 100,
+  "ok": 93,
+  "ng": 7,
+  "results": [
+    {
+      "name": "AI、IoT時代の公共ポリシーを国際的な観点から考察する",
+      "query": "AI、IoT時代の公共ポリシーを国際的な観点から考察する 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "Jヴィレッジ訪問",
+      "query": "Jヴィレッジ訪問 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "SDGs入門",
+      "query": "SDGs入門 2026",
+      "ok": true,
+      "hits": 2,
+      "error": ""
+    },
+    {
+      "name": "アラビア語II",
+      "query": "アラビア語II 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "アルゴリズミック思考の基礎",
+      "query": "アルゴリズミック思考の基礎 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "アントレプレナーシップ思考",
+      "query": "アントレプレナーシップ思考 2026",
+      "ok": true,
+      "hits": 4,
+      "error": ""
+    },
+    {
+      "name": "イタリア語II",
+      "query": "イタリア語II 2026",
+      "ok": true,
+      "hits": 2,
+      "error": ""
+    },
+    {
+      "name": "インクルージョン社会",
+      "query": "インクルージョン社会 2026",
+      "ok": true,
+      "hits": 5,
+      "error": ""
+    },
+    {
+      "name": "エネルギーや資源と持続可能性",
+      "query": "エネルギーや資源と持続可能性 2026",
+      "ok": true,
+      "hits": 5,
+      "error": ""
+    },
+    {
+      "name": "キャリアデザインA",
+      "query": "キャリアデザインA 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "キャリア教育特別講義（ジャーナリズムと社会）",
+      "query": "キャリア教育特別講義（ジャーナリズムと社会） 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "キャリア教育特別講義（口腔保健学総論）",
+      "query": "キャリア教育特別講義（口腔保健学総論） 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "キャリア関連",
+      "query": "キャリア関連 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "グローバルPBL",
+      "query": "グローバルPBL 2026",
+      "ok": true,
+      "hits": 6,
+      "error": ""
+    },
+    {
+      "name": "グローバルリーダーシップ論",
+      "query": "グローバルリーダーシップ論 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "グローバル学習",
+      "query": "グローバル学習 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "グローバル特定課題",
+      "query": "グローバル特定課題 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "スポーツA",
+      "query": "スポーツA 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "データ科学・AI概論",
+      "query": "データ科学・AI概論 2026",
+      "ok": true,
+      "hits": 4,
+      "error": ""
+    },
+    {
+      "name": "ナノ・マイクロ科学概論",
+      "query": "ナノ・マイクロ科学概論 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "ユーラシア大陸を考える",
+      "query": "ユーラシア大陸を考える 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "伝統文化と哲学",
+      "query": "伝統文化と哲学 2026",
+      "ok": true,
+      "hits": 2,
+      "error": ""
+    },
+    {
+      "name": "体育学のすすめ",
+      "query": "体育学のすすめ 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "倫理学",
+      "query": "倫理学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "化学A",
+      "query": "化学A 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "化学基礎論",
+      "query": "化学基礎論 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "哲学",
+      "query": "哲学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "国際事情",
+      "query": "国際事情 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "国際教養特定課題",
+      "query": "国際教養特定課題 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎スペイン語I",
+      "query": "基礎スペイン語I 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎スペイン語II",
+      "query": "基礎スペイン語II 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎ドイツ語I",
+      "query": "基礎ドイツ語I 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎ドイツ語II",
+      "query": "基礎ドイツ語II 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎フランス語I",
+      "query": "基礎フランス語I 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎フランス語II",
+      "query": "基礎フランス語II 2026",
+      "ok": true,
+      "hits": 7,
+      "error": ""
+    },
+    {
+      "name": "基礎ロシア語Ⅰ",
+      "query": "基礎ロシア語Ⅰ 2026",
+      "ok": true,
+      "hits": 3,
+      "error": ""
+    },
+    {
+      "name": "基礎ロシア語Ⅱ",
+      "query": "基礎ロシア語Ⅱ 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "基礎中国語I",
+      "query": "基礎中国語I 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎中国語II",
+      "query": "基礎中国語II 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "基礎朝鮮語I",
+      "query": "基礎朝鮮語I 2026",
+      "ok": true,
+      "hits": 3,
+      "error": ""
+    },
+    {
+      "name": "基礎朝鮮語II",
+      "query": "基礎朝鮮語II 2026",
+      "ok": true,
+      "hits": 3,
+      "error": ""
+    },
+    {
+      "name": "多文化PBL",
+      "query": "多文化PBL 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "多文化特定課題",
+      "query": "多文化特定課題 2026",
+      "ok": true,
+      "hits": 8,
+      "error": ""
+    },
+    {
+      "name": "多文化社会の探求",
+      "query": "多文化社会の探求 2026",
+      "ok": true,
+      "hits": 3,
+      "error": ""
+    },
+    {
+      "name": "多文化間コミュニケーション",
+      "query": "多文化間コミュニケーション 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "天文学概論",
+      "query": "天文学概論 2026",
+      "ok": true,
+      "hits": 3,
+      "error": ""
+    },
+    {
+      "name": "学問論",
+      "query": "学問論 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "実践的機械学習II",
+      "query": "実践的機械学習II 2026",
+      "ok": true,
+      "hits": 2,
+      "error": ""
+    },
+    {
+      "name": "実践的機械学習Ⅰ",
+      "query": "実践的機械学習Ⅰ 2026",
+      "ok": true,
+      "hits": 2,
+      "error": ""
+    },
+    {
+      "name": "心理学",
+      "query": "心理学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "情報とデータの基礎",
+      "query": "情報とデータの基礎 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "情報と人間・社会",
+      "query": "情報と人間・社会 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "情報教育特別講義",
+      "query": "情報教育特別講義 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "情報教育特別講義（AIをめぐる人間と社会）",
+      "query": "情報教育特別講義（AIをめぐる人間と社会） 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "情報教育特別講義（統計数理モデリング）",
+      "query": "情報教育特別講義（統計数理モデリング） 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "政治学",
+      "query": "政治学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "教育の制度と経営",
+      "query": "教育の制度と経営 2026",
+      "ok": true,
+      "hits": 8,
+      "error": ""
+    },
+    {
+      "name": "教育課程論",
+      "query": "教育課程論 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "数理統計学概論",
+      "query": "数理統計学概論 2026",
+      "ok": true,
+      "hits": 8,
+      "error": ""
+    },
+    {
+      "name": "文化と社会の探求",
+      "query": "文化と社会の探求 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "文化人類学",
+      "query": "文化人類学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "文化理解",
+      "query": "文化理解 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "文学",
+      "query": "文学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "日本国憲法",
+      "query": "日本国憲法 2026",
+      "ok": true,
+      "hits": 5,
+      "error": ""
+    },
+    {
+      "name": "日本文化論",
+      "query": "日本文化論 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "日本語B",
+      "query": "日本語B 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "日本語H",
+      "query": "日本語H 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "東北アジア地域研究入門",
+      "query": "東北アジア地域研究入門 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "歴史学",
+      "query": "歴史学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "汎用的技能ワークショップ",
+      "query": "汎用的技能ワークショップ 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "法学",
+      "query": "法学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "流体力学の基礎",
+      "query": "流体力学の基礎 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "海の自然災害と防災・減災",
+      "query": "海の自然災害と防災・減災 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "物理の思想と美学",
+      "query": "物理の思想と美学 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "物理学の最前線と現代社会、そして未来社会",
+      "query": "物理学の最前線と現代社会、そして未来社会 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "物理学概論",
+      "query": "物理学概論 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "物理学概論I",
+      "query": "物理学概論I 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "物理学概論Ⅱ",
+      "query": "物理学概論Ⅱ 2026",
+      "ok": true,
+      "hits": 1,
+      "error": ""
+    },
+    {
+      "name": "現代経済法の基礎理論",
+      "query": "現代経済法の基礎理論 2026",
+      "ok": false,
+      "hits": 0,
+      "error": ""
+    },
+    {
+      "name": "生命と自然",
+      "query": "生命と自然 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "生命科学A",
+      "query": "生命科学A 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "生命科学B",
+      "query": "生命科学B 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "生命科学C",
+      "query": "生命科学C 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "社会学",
+      "query": "社会学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "福島の復興・再生",
+      "query": "福島の復興・再生 2026",
+      "ok": true,
+      "hits": 3,
+      "error": ""
+    },
+    {
+      "name": "経済と社会",
+      "query": "経済と社会 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "経済学入門B",
+      "query": "経済学入門B 2026",
+      "ok": true,
+      "hits": 6,
+      "error": ""
+    },
+    {
+      "name": "経済学入門Ａ",
+      "query": "経済学入門Ａ 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "線形代数学概論",
+      "query": "線形代数学概論 2026",
+      "ok": true,
+      "hits": 8,
+      "error": ""
+    },
+    {
+      "name": "自然と環境",
+      "query": "自然と環境 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "自然科学総合実験",
+      "query": "自然科学総合実験 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "芸術",
+      "query": "芸術 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "英語I-A",
+      "query": "英語I-A 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "英語I-B",
+      "query": "英語I-B 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "英語II-A",
+      "query": "英語II-A 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "英語II-B",
+      "query": "英語II-B 2026",
+      "ok": true,
+      "hits": 9,
+      "error": ""
+    },
+    {
+      "name": "解析学概論",
+      "query": "解析学概論 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "言語学・日本語科学",
+      "query": "言語学・日本語科学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "読んで書いて話す",
+      "query": "読んで書いて話す 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    },
+    {
+      "name": "論理学",
+      "query": "論理学 2026",
+      "ok": true,
+      "hits": 10,
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,1069 @@
+{
+  "updated_count": 133,
+  "updates": [
+    {
+      "line": 49,
+      "code": "CB32128",
+      "old_name": "スポーツA",
+      "new_name": "スポーツＡ",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }]"
+    },
+    {
+      "line": 51,
+      "code": "CB22131",
+      "old_name": "英語I-A",
+      "new_name": "英語Ⅰ−Ａ",
+      "old_slots": "slots: [{ day: 'tue', period: 2 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 2 }]"
+    },
+    {
+      "line": 52,
+      "code": "CB51120",
+      "old_name": "英語I-B",
+      "new_name": "英語Ⅰ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 1 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 1 }]"
+    },
+    {
+      "line": 53,
+      "code": "CB33116",
+      "old_name": "基礎ドイツ語I",
+      "new_name": "基礎ドイツ語Ⅰ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 54,
+      "code": "CB33122",
+      "old_name": "基礎フランス語I",
+      "new_name": "基礎フランス語Ⅰ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 55,
+      "code": "CB33110",
+      "old_name": "基礎スペイン語I",
+      "new_name": "基礎スペイン語Ⅰ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 56,
+      "code": "CB33125",
+      "old_name": "基礎中国語I",
+      "new_name": "基礎中国語Ⅰ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 58,
+      "code": "CB25105",
+      "old_name": "基礎朝鮮語I",
+      "new_name": "基礎朝鮮語Ⅰ",
+      "old_slots": "slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 61,
+      "code": "CB21101",
+      "old_name": "物理学概論I",
+      "new_name": "物理学概論Ⅰ",
+      "old_slots": "slots: [{ day: 'tue', period: 1 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 1 }]"
+    },
+    {
+      "line": 62,
+      "code": "CB31103",
+      "old_name": "化学A",
+      "new_name": "化学Ａ",
+      "old_slots": "slots: [{ day: 'wed', period: 1 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 64,
+      "code": "CB52101",
+      "old_name": "数理統計学概論",
+      "new_name": "物理学A",
+      "old_slots": "slots: [{ day: 'fri', period: 2 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 2 }]"
+    },
+    {
+      "line": 66,
+      "code": "CB42103",
+      "old_name": "倫理学",
+      "new_name": "文学",
+      "old_slots": "slots: [{ day: 'thu', period: 2 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 73,
+      "code": "CB34104",
+      "old_name": "国際事情",
+      "new_name": "国際教養PBL",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 4 }]"
+    },
+    {
+      "line": 74,
+      "code": "CB34105",
+      "old_name": "多文化間コミュニケーション",
+      "new_name": "多文化間コミュニケーション",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 4 }, { day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 75,
+      "code": "CB35101",
+      "old_name": "多文化間コミュニケーション",
+      "new_name": "グローバルPBL",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 76,
+      "code": "CB35102",
+      "old_name": "グローバルPBL",
+      "new_name": "日本の海岸災害と防災",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 77,
+      "code": "CB35103",
+      "old_name": "海の自然災害と防災・減災",
+      "new_name": "イタリア語Ⅰ",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 78,
+      "code": "CB33111",
+      "old_name": "文化と社会の探求",
+      "new_name": "基礎スペイン語Ⅰ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'thu', period: 1 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 80,
+      "code": "CB45101",
+      "old_name": "情報教育特別講義",
+      "new_name": "情報教育特別講義（実践的量子ソリューション創出論）",
+      "old_slots": "slots: [{ day: 'thu', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 81,
+      "code": "CB13212",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 82,
+      "code": "CB13204",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 83,
+      "code": "CB13205",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 84,
+      "code": "CB13213",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 85,
+      "code": "CB54202",
+      "old_name": "英語II-B",
+      "new_name": "グローバル学習",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 86,
+      "code": "CB54205",
+      "old_name": "英語II-B",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 87,
+      "code": "CB54206",
+      "old_name": "英語II-B",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 88,
+      "code": "CB54207",
+      "old_name": "英語II-B",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 89,
+      "code": "CB23238",
+      "old_name": "経済学入門B",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'wed', period: 1 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 3 }]"
+    },
+    {
+      "line": 90,
+      "code": "CB32201",
+      "old_name": "解析学概論",
+      "new_name": "基礎スペイン語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 1 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }, { day: 'fri', period: 1 }]"
+    },
+    {
+      "line": 91,
+      "code": "CB32202",
+      "old_name": "解析学概論",
+      "new_name": "基礎スペイン語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 1 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }, { day: 'fri', period: 1 }]"
+    },
+    {
+      "line": 92,
+      "code": "CB32203",
+      "old_name": "解析学概論",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 1 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }, { day: 'fri', period: 1 }]"
+    },
+    {
+      "line": 93,
+      "code": "CB32204",
+      "old_name": "解析学概論",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 1 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }, { day: 'fri', period: 1 }]"
+    },
+    {
+      "line": 94,
+      "code": "CB31201",
+      "old_name": "哲学",
+      "new_name": "哲学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 95,
+      "code": "CB31202",
+      "old_name": "倫理学",
+      "new_name": "倫理学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 96,
+      "code": "CB31203",
+      "old_name": "文学",
+      "new_name": "文学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 97,
+      "code": "CB31204",
+      "old_name": "芸術",
+      "new_name": "芸術",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 98,
+      "code": "CB31205",
+      "old_name": "芸術",
+      "new_name": "歴史学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 99,
+      "code": "CB31206",
+      "old_name": "歴史学",
+      "new_name": "心理学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 100,
+      "code": "CB31207",
+      "old_name": "言語学・日本語科学",
+      "new_name": "心理学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 101,
+      "code": "CB31208",
+      "old_name": "心理学",
+      "new_name": "文化人類学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 102,
+      "code": "CB31209",
+      "old_name": "心理学",
+      "new_name": "社会学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 103,
+      "code": "CB31210",
+      "old_name": "文化人類学",
+      "new_name": "政治学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 104,
+      "code": "CB31211",
+      "old_name": "法学",
+      "new_name": "化学Ｂ",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 105,
+      "code": "CB31212",
+      "old_name": "政治学",
+      "new_name": "地球物質科学",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 106,
+      "code": "CB31213",
+      "old_name": "インクルージョン社会",
+      "new_name": "インクルージョン社会",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 107,
+      "code": "CB31214",
+      "old_name": "エネルギーや資源と持続可能性",
+      "new_name": "エネルギーや資源と持続可能性",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 108,
+      "code": "CB31215",
+      "old_name": "生命と自然",
+      "new_name": "生命と自然",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 109,
+      "code": "CB31216",
+      "old_name": "自然と環境",
+      "new_name": "自然と環境",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 110,
+      "code": "CB31217",
+      "old_name": "情報と人間・社会",
+      "new_name": "情報と人間・社会",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 1 }]"
+    },
+    {
+      "line": 112,
+      "code": "CB25201",
+      "old_name": "データ科学・AI概論",
+      "new_name": "データ科学・AI概論",
+      "old_slots": "slots: [{ day: 'tue', period: 4 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 5 }]"
+    },
+    {
+      "line": 114,
+      "code": "CB25207",
+      "old_name": "基礎朝鮮語II",
+      "new_name": "基礎朝鮮語Ⅱ",
+      "old_slots": "slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 115,
+      "code": "CB25208",
+      "old_name": "基礎朝鮮語II",
+      "new_name": "基礎朝鮮語Ⅱ",
+      "old_slots": "slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 116,
+      "code": "CB33211",
+      "old_name": "基礎ドイツ語II",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 117,
+      "code": "CB33212",
+      "old_name": "基礎ドイツ語II",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 118,
+      "code": "CB33213",
+      "old_name": "基礎ドイツ語II",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 119,
+      "code": "CB33214",
+      "old_name": "基礎ドイツ語II",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 120,
+      "code": "CB33215",
+      "old_name": "基礎ドイツ語II",
+      "new_name": "基礎ドイツ語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 121,
+      "code": "CB33242",
+      "old_name": "基礎フランス語II",
+      "new_name": "基礎フランス語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 122,
+      "code": "CB33243",
+      "old_name": "基礎フランス語II",
+      "new_name": "基礎フランス語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 123,
+      "code": "CB33244",
+      "old_name": "基礎フランス語II",
+      "new_name": "基礎フランス語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 124,
+      "code": "CB33206",
+      "old_name": "基礎スペイン語II",
+      "new_name": "基礎スペイン語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 125,
+      "code": "CB33207",
+      "old_name": "基礎スペイン語II",
+      "new_name": "基礎スペイン語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 126,
+      "code": "CB33245",
+      "old_name": "基礎中国語II",
+      "new_name": "基礎中国語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 127,
+      "code": "CB33246",
+      "old_name": "基礎中国語II",
+      "new_name": "基礎中国語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 128,
+      "code": "CB33247",
+      "old_name": "基礎中国語II",
+      "new_name": "基礎中国語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 129,
+      "code": "CB33248",
+      "old_name": "基礎中国語II",
+      "new_name": "基礎中国語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 131,
+      "code": "CB34203",
+      "old_name": "AI、IoT時代の公共ポリシーを国際的な観点から考察する",
+      "new_name": "国際教養PBL",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 4 }, { day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 132,
+      "code": "CB35201",
+      "old_name": "東北アジア地域研究入門",
+      "new_name": "東北アジア地域研究入門",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 133,
+      "code": "CB35203",
+      "old_name": "文化と社会の探求",
+      "new_name": "バリューディスカバリー演習",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 134,
+      "code": "CB35204",
+      "old_name": "グローバル学習",
+      "new_name": "グローバル学習",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 135,
+      "code": "CB35205",
+      "old_name": "グローバルPBL",
+      "new_name": "グローバルPBL",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 136,
+      "code": "CB35206",
+      "old_name": "ユーラシア大陸を考える",
+      "new_name": "ユーラシア大陸の古今東西の文化交流",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 137,
+      "code": "CB35207",
+      "old_name": "イタリア語II",
+      "new_name": "イタリア語Ⅱ",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 5 }]"
+    },
+    {
+      "line": 138,
+      "code": "CB42207",
+      "old_name": "国際教養特定課題",
+      "new_name": "文化理解",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 139,
+      "code": "CB42208",
+      "old_name": "文化理解",
+      "new_name": "多文化特定課題",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 140,
+      "code": "CB42211",
+      "old_name": "グローバルPBL",
+      "new_name": "線形代数学B",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 141,
+      "code": "CB42204",
+      "old_name": "日本語B",
+      "new_name": "日本語B",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 142,
+      "code": "CB42224",
+      "old_name": "教育課程論",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 143,
+      "code": "CB43230",
+      "old_name": "多文化特定課題",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'tue', period: 3 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 3 }]"
+    },
+    {
+      "line": 144,
+      "code": "CB43228",
+      "old_name": "読んで書いて話す",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'tue', period: 3 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 3 }]"
+    },
+    {
+      "line": 145,
+      "code": "CB43227",
+      "old_name": "日本語H",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'tue', period: 3 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 3 }]"
+    },
+    {
+      "line": 147,
+      "code": "CB44206",
+      "old_name": "教育の制度と経営",
+      "new_name": "教育の制度と経営",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 4 }]"
+    },
+    {
+      "line": 148,
+      "code": "CB42210",
+      "old_name": "多文化特定課題",
+      "new_name": "線形代数学B",
+      "old_slots": "slots: [{ day: 'thu', period: 2 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 2 }]"
+    },
+    {
+      "line": 149,
+      "code": "CB45201",
+      "old_name": "情報教育特別講義（AIをめぐる人間と社会）",
+      "new_name": "情報教育特別講義（AIをめぐる人間と社会の過去・現在・未来）",
+      "old_slots": "slots: [{ day: 'thu', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 150,
+      "code": "CB45204",
+      "old_name": "福島の復興・再生",
+      "new_name": "国際事情",
+      "old_slots": "slots: [{ day: 'wed', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 151,
+      "code": "CB45205",
+      "old_name": "物理の思想と美学",
+      "new_name": "文化理解",
+      "old_slots": "slots: [{ day: 'wed', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 152,
+      "code": "CB45206",
+      "old_name": "物理学の最前線と現代社会、そして未来社会",
+      "new_name": "多文化PBL",
+      "old_slots": "slots: [{ day: 'wed', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 153,
+      "code": "CB45208",
+      "old_name": "アラビア語II",
+      "new_name": "福島の復興・再生",
+      "old_slots": "slots: [{ day: 'wed', period: 5 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 154,
+      "code": "CB45209",
+      "old_name": "多文化PBL",
+      "new_name": "アラビア語Ⅱ",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 155,
+      "code": "CB45207",
+      "old_name": "多文化特定課題",
+      "new_name": "多文化特定課題",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'thu', period: 5 }]"
+    },
+    {
+      "line": 156,
+      "code": "CB53208",
+      "old_name": "多文化PBL",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'wed', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 3 }]"
+    },
+    {
+      "line": 157,
+      "code": "CB55202",
+      "old_name": "実践的機械学習II",
+      "new_name": "実践的機械学習Ⅱ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 159,
+      "code": "CB55203",
+      "old_name": "文化理解",
+      "new_name": "汎用的技能ワークショップ",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 161,
+      "code": "CB55205",
+      "old_name": "汎用的技能ワークショップ",
+      "new_name": "キャリア教育特別講義（専門職キャリアのための口腔保健学総論）",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 162,
+      "code": "CB55206",
+      "old_name": "キャリア教育特別講義（ジャーナリズムと社会）",
+      "new_name": "国際教養PBL",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 163,
+      "code": "CB55207",
+      "old_name": "キャリア教育特別講義（口腔保健学総論）",
+      "new_name": "文化理解",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 164,
+      "code": "CB55210",
+      "old_name": "SDGs入門",
+      "new_name": "TIS寄附講義：AI活用時代のシステムインテグレーション技術",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 165,
+      "code": "CB55211",
+      "old_name": "アルゴリズミック思考の基礎",
+      "new_name": "SDGs入門",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 166,
+      "code": "CB13206",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 167,
+      "code": "CB13214",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 168,
+      "code": "CB13215",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 169,
+      "code": "CB13216",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 170,
+      "code": "CB13217",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 171,
+      "code": "CB13218",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 172,
+      "code": "CB13219",
+      "old_name": "英語II-A",
+      "new_name": "英語Ⅱ−Ａ",
+      "old_slots": "slots: [{ day: 'mon', period: 3 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 3 }]"
+    },
+    {
+      "line": 173,
+      "code": "CB14204",
+      "old_name": "伝統文化と哲学",
+      "new_name": "化学Ｃ",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 4 }]"
+    },
+    {
+      "line": 174,
+      "code": "CB14212",
+      "old_name": "現代経済法の基礎理論",
+      "new_name": "キャリア関連学習",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 4 }]"
+    },
+    {
+      "line": 175,
+      "code": "CB14213",
+      "old_name": "現代経済法の基礎理論",
+      "new_name": "環境流体運動の基礎理論",
+      "old_slots": "slots: [{ day: 'mon', period: 4 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 4 }]"
+    },
+    {
+      "line": 176,
+      "code": "CB15201",
+      "old_name": "ナノ・マイクロ科学概論",
+      "new_name": "キャリア教育特別講義（河北新報・東北を拓く新聞論）",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 5 }]"
+    },
+    {
+      "line": 177,
+      "code": "CB15202",
+      "old_name": "汎用的技能ワークショップ",
+      "new_name": "国際教養特定課題",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 5 }]"
+    },
+    {
+      "line": 178,
+      "code": "CB15203",
+      "old_name": "多文化特定課題",
+      "new_name": "キャリア関連学習",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 5 }]"
+    },
+    {
+      "line": 180,
+      "code": "CB15206",
+      "old_name": "Jヴィレッジ訪問",
+      "new_name": "リーダーシップ開発",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 5 }]"
+    },
+    {
+      "line": 181,
+      "code": "CB15207",
+      "old_name": "キャリアデザインA",
+      "new_name": "教育学のフロンティア",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 5 }]"
+    },
+    {
+      "line": 182,
+      "code": "CB15208",
+      "old_name": "数理統計学概論",
+      "new_name": "身体の文化と科学",
+      "old_slots": "slots: [{ day: 'mon', period: 5 }]",
+      "new_slots": "slots: [{ day: 'mon', period: 5 }]"
+    },
+    {
+      "line": 183,
+      "code": "CB23206",
+      "old_name": "日本国憲法",
+      "new_name": "日本語J",
+      "old_slots": "slots: [{ day: 'tue', period: 3 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 3 }]"
+    },
+    {
+      "line": 189,
+      "code": "CB24207",
+      "old_name": "数理統計学概論",
+      "new_name": "地理学概論",
+      "old_slots": "slots: [{ day: 'tue', period: 4 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 4 }]"
+    },
+    {
+      "line": 190,
+      "code": "CB24212",
+      "old_name": "現代経済法の基礎理論",
+      "new_name": "文化と社会の探求",
+      "old_slots": "slots: [{ day: 'tue', period: 4 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 4 }]"
+    },
+    {
+      "line": 191,
+      "code": "CB24213",
+      "old_name": "多文化社会の探求",
+      "new_name": "多文化間コミュニケーション",
+      "old_slots": "slots: [{ day: 'tue', period: 4 }]",
+      "new_slots": "slots: [{ day: 'tue', period: 4 }]"
+    },
+    {
+      "line": 193,
+      "code": "CB32207",
+      "old_name": "物理学概論",
+      "new_name": "解析学概論",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }]"
+    },
+    {
+      "line": 194,
+      "code": "CB32208",
+      "old_name": "化学基礎論",
+      "new_name": "解析学概論",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }]"
+    },
+    {
+      "line": 196,
+      "code": "CB32210",
+      "old_name": "文化理解",
+      "new_name": "線形代数学B",
+      "old_slots": "slots: [{ day: 'wed', period: 2 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 2 }]"
+    },
+    {
+      "line": 197,
+      "code": "CB34201",
+      "old_name": "多文化PBL",
+      "new_name": "国際教養PBL",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 4 }]"
+    },
+    {
+      "line": 198,
+      "code": "CB34204",
+      "old_name": "キャリア関連",
+      "new_name": "キャリア関連学習",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 4 }]"
+    },
+    {
+      "line": 199,
+      "code": "CB34205",
+      "old_name": "日本文化論",
+      "new_name": "日本及び国際のインターネット・ガバナンス",
+      "old_slots": "slots: [{ day: 'wed', period: 4 }]",
+      "new_slots": "slots: [{ day: 'wed', period: 4 }]"
+    },
+    {
+      "line": 200,
+      "code": "CB54208",
+      "old_name": "英語II-B",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 201,
+      "code": "CB54209",
+      "old_name": "英語II-B",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 202,
+      "code": "CB54210",
+      "old_name": "英語II-B",
+      "new_name": "英語Ⅱ−Ｂ",
+      "old_slots": "slots: [{ day: 'fri', period: 4 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 4 }]"
+    },
+    {
+      "line": 203,
+      "code": "CB55212",
+      "old_name": "グローバルリーダーシップ論",
+      "new_name": "アルゴリズミック思考の基礎",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 204,
+      "code": "CB55213",
+      "old_name": "アントレプレナーシップ思考",
+      "new_name": "自然科学と情報",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 205,
+      "code": "CB55214",
+      "old_name": "グローバル特定課題",
+      "new_name": "化学・バイオ工学の最前線",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 206,
+      "code": "CB55215",
+      "old_name": "体育学のすすめ",
+      "new_name": "ギリシア語Ⅱ",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 207,
+      "code": "CB55216",
+      "old_name": "SDGs入門",
+      "new_name": "ラテン語Ⅱ",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    },
+    {
+      "line": 208,
+      "code": "CB55217",
+      "old_name": "アルゴリズミック思考の基礎",
+      "new_name": "チェコ語Ⅱ",
+      "old_slots": "slots: [{ day: 'fri', period: 5 }]",
+      "new_slots": "slots: [{ day: 'fri', period: 5 }]"
+    }
+  ]
+}

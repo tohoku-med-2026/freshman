@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const downloadBtn = document.getElementById('download-timetable-pdf');
     const creditSummary = document.getElementById('credit-summary');
     const selectedCourseList = document.getElementById('selected-course-list');
+    const quickSyllabusLinkList = document.getElementById('quick-syllabus-link-list');
     const note = document.getElementById('timetable-data-note');
     const toggleMobilePreviewBtn = document.getElementById('toggle-mobile-preview');
     const mobilePreviewBody = document.getElementById('mobile-preview-body');
@@ -43,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const courses = [
-        { code: 'CB13101', name: '学問論', credits: 2, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'mon', period: 3 }], requiredByDefault: true },
+        { code: 'CB13101', name: '学問論', credits: 2, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'mon', period: 3 }, { day: 'mon', period: 4 }, { day: 'mon', period: 5 }], requiredByDefault: true },
         { code: 'CB43106', name: '自然科学総合実験', credits: 2, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 3 }, { day: 'thu', period: 4 }], requiredByDefault: true },
         { code: 'CB32128', name: 'スポーツＡ', credits: 1, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 2 }], requiredByDefault: true },
         { code: 'CB23105', name: '情報とデータの基礎', credits: 2, category: '先進科目', requirementTags: ['advancedRequired'], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 3 }], requiredByDefault: true },
@@ -74,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { code: 'CB35101', name: 'グローバルPBL', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 5 }] },
         { code: 'CB35102', name: '日本の海岸災害と防災', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 5 }] },
         { code: 'CB35103', name: 'イタリア語Ⅰ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 5 }] },
-        { code: 'CB33111', name: '基礎スペイン語Ⅰ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'fri', period: 3 }] },
+        { code: 'CB33111', name: '基礎スペイン語Ⅰ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },
         { code: 'CB55101', name: '実践的機械学習Ⅰ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'fri', period: 5 }] },
         { code: 'CB45101', name: '情報教育特別講義（実践的量子ソリューション創出論）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 5 }] },
         { code: 'CB13212', name: '英語Ⅱ−Ａ', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }], requiredByDefault: true },
@@ -127,6 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { code: 'CB33247', name: '基礎中国語Ⅱ', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },
         { code: 'CB33248', name: '基礎中国語Ⅱ', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },
         { code: 'CB35202', name: '情報教育特別講義（統計数理モデリング）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },
+        { code: 'CB34203', name: '国際教養PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }, { day: 'wed', period: 5 }] },
         { code: 'CB35201', name: '東北アジア地域研究入門', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },
         { code: 'CB35203', name: 'バリューディスカバリー演習', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },
         { code: 'CB35204', name: 'グローバル学習', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },
@@ -213,13 +215,6 @@ document.addEventListener('DOMContentLoaded', () => {
         CB33125: 'CB33245', CB33245: 'CB33125', CB33246: 'CB33125', CB33247: 'CB33125', CB33248: 'CB33125',
         CB25103: 'CB25205', CB25205: 'CB25103', CB25105: 'CB25207', CB25207: 'CB25105', CB25208: 'CB25105'
     };
-    const fixedCourseSlotsBySemester = {
-        '1q_1sem': {
-            'thu-3': 'CB43106',
-            'thu-4': 'CB43106'
-        },
-        '2q_2sem': {}
-    };
     const lockedSlotsBySemester = {
         '1q_1sem': {
             'mon-1': '専門科目（医学医療入門）',
@@ -249,10 +244,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const key = getCellKey(day, period);
         return lockedSlotsBySemester[semesterKey]?.[key] || '';
     }
-    function getFixedCourseCode(semesterKey, day, period) {
-        const key = getCellKey(day, period);
-        return fixedCourseSlotsBySemester[semesterKey]?.[key] || '';
-    }
     function getCourseByCode(code) {
         return courses.find(c => c.code === code);
     }
@@ -264,6 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     function getSyllabusUrl(code) {
         return `https://qsl.cds.tohoku.ac.jp/qsl/syllabus/display/${code.toLowerCase()}-${syllabusYear}`;
+    }
+    function getQuickSyllabusSearchUrl(courseName) {
+        return `https://qsl.cds.tohoku.ac.jp/qsl/syllabus/search?query_string=${encodeURIComponent(courseName)}`;
     }
     function getCategoryClass(course) {
         if (!course || !course.category) return '';
@@ -481,16 +475,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     html += `<td class="locked-slot-cell"><span class="locked-slot-label">${lockedLabel}</span></td>`;
                     return;
                 }
-                const fixedCode = getFixedCourseCode(semesterKey, day, period);
-                if (fixedCode) {
-                    const fixedCourse = getCourseByCode(fixedCode);
-                    const fixedLabel = fixedCourse
-                        ? `${getCategoryMarker(fixedCourse)} ${fixedCourse.name}（${fixedCourse.code}） / ${fixedCourse.credits}単位 / ${fixedCourse.category}`
-                        : '固定科目';
-                    const fixedClass = fixedCourse ? getCategoryClass(fixedCourse) : '';
-                    html += `<td class="timetable-cell ${fixedClass}"><select class="timetable-select" data-semester="${semesterKey}" data-day="${day}" data-period="${period}" disabled><option value="${fixedCode}" selected>${fixedLabel}</option></select></td>`;
-                    return;
-                }
                 const options = createOptionsHtml(getCoursesForSlot(semesterKey, day, period));
                 html += `<td class="timetable-cell"><select class="timetable-select" data-semester="${semesterKey}" data-day="${day}" data-period="${period}">${options}</select></td>`;
             });
@@ -522,6 +506,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const merged = new Map();
         [...getSelectedCoursesForSemester('1q_1sem'), ...getSelectedCoursesForSemester('2q_2sem')].forEach(c => merged.set(c.code, c));
         return Array.from(merged.values());
+    }
+    function getUniqueCourseNames() {
+        const names = new Set();
+        courses.forEach(course => {
+            const name = (course.name || '').trim();
+            if (name) names.add(name);
+        });
+        return Array.from(names).sort((a, b) => a.localeCompare(b, 'ja'));
+    }
+    function renderQuickSyllabusLinks() {
+        if (!quickSyllabusLinkList) return;
+        const uniqueNames = getUniqueCourseNames();
+        if (uniqueNames.length === 0) {
+            quickSyllabusLinkList.innerHTML = '<li>講義データがありません。</li>';
+            return;
+        }
+        quickSyllabusLinkList.innerHTML = uniqueNames
+            .map(name => `<li><a href="${getQuickSyllabusSearchUrl(name)}" target="_blank" rel="noopener noreferrer">${name} で検索</a></li>`)
+            .join('');
     }
 
     function calculateProgress(selectedCourses) {
@@ -836,6 +839,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSemesterGrid('1q_1sem');
     renderSemesterGrid('2q_2sem');
     bindPreviewEvents();
+    renderQuickSyllabusLinks();
     updateSummary();
 
     resetBtn.addEventListener('click', resetAll);

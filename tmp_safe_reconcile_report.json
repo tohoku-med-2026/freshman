@@ -1,0 +1,1329 @@
+{
+  "updates": [
+    {
+      "old_code": "CB25114",
+      "new_code": "CB25103",
+      "old_name": "基礎ロシア語I",
+      "new_name": "基礎ロシア語Ⅰ",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB41111",
+      "new_code": "CB41101",
+      "old_name": "生命科学B",
+      "new_name": "生命科学B",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB42105",
+      "new_code": "CB42104",
+      "old_name": "歴史学",
+      "new_name": "歴史学",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB42113",
+      "new_code": "CB42112",
+      "old_name": "法学",
+      "new_name": "法学",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB42114",
+      "new_code": "CB42113",
+      "old_name": "政治学",
+      "new_name": "政治学",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB24105",
+      "new_code": "CB24103",
+      "old_name": "生命科学A",
+      "new_name": "生命科学A",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB55101",
+      "new_code": "CB55101",
+      "old_name": "実践的機械学習I",
+      "new_name": "実践的機械学習Ⅰ",
+      "kind": "name_only"
+    },
+    {
+      "old_code": "CB24202",
+      "new_code": "CB24201",
+      "old_name": "物理学概論II",
+      "new_name": "物理学概論Ⅱ",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB25214",
+      "new_code": "CB25205",
+      "old_name": "基礎ロシア語II",
+      "new_name": "基礎ロシア語Ⅱ",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB44204",
+      "new_code": "CB34202",
+      "old_name": "多文化PBL",
+      "new_name": "多文化PBL",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB55204",
+      "new_code": "CB55208",
+      "old_name": "多文化間コミュニケーション",
+      "new_name": "多文化間コミュニケーション",
+      "kind": "code_and_name"
+    },
+    {
+      "old_code": "CB31219",
+      "new_code": "CB31219",
+      "old_name": "経済学入門A",
+      "new_name": "経済学入門Ａ",
+      "kind": "name_only"
+    }
+  ],
+  "skip": [
+    {
+      "code": "CB13101",
+      "name": "学問論",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13101",
+        "CB13102",
+        "CB13103",
+        "CB13104"
+      ]
+    },
+    {
+      "code": "CB32110",
+      "name": "スポーツA",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB32128",
+        "CB32129",
+        "CB32130",
+        "CB32131",
+        "CB32132",
+        "CB32133"
+      ]
+    },
+    {
+      "code": "CB22128",
+      "name": "英語I-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB22131",
+        "CB22132",
+        "CB22133",
+        "CB22134",
+        "CB22135",
+        "CB22136"
+      ]
+    },
+    {
+      "code": "CB51120",
+      "name": "英語I-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB51120",
+        "CB51121",
+        "CB51122",
+        "CB51123",
+        "CB51124",
+        "CB51125",
+        "CB51126",
+        "CB51127",
+        "CB51128",
+        "CB51130"
+      ]
+    },
+    {
+      "code": "CB33114",
+      "name": "基礎ドイツ語I",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33116",
+        "CB33117",
+        "CB33118",
+        "CB33119",
+        "CB33120"
+      ]
+    },
+    {
+      "code": "CB33119",
+      "name": "基礎フランス語I",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33122",
+        "CB33123",
+        "CB33124"
+      ]
+    },
+    {
+      "code": "CB33122",
+      "name": "基礎スペイン語I",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33110",
+        "CB33111"
+      ]
+    },
+    {
+      "code": "CB33124",
+      "name": "基礎中国語I",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33125",
+        "CB33126",
+        "CB33127",
+        "CB33128"
+      ]
+    },
+    {
+      "code": "CB25116",
+      "name": "基礎朝鮮語I",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB25104",
+        "CB25105",
+        "CB25106"
+      ]
+    },
+    {
+      "code": "CB21101",
+      "name": "物理学概論I",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB21101",
+        "CB21102",
+        "CB21103",
+        "CB21104",
+        "CB21105",
+        "CB21106"
+      ]
+    },
+    {
+      "code": "CB31103",
+      "name": "化学A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB31101",
+        "CB31102",
+        "CB31103",
+        "CB31104",
+        "CB31105",
+        "CB31106"
+      ]
+    },
+    {
+      "code": "CB31101",
+      "name": "線形代数学概論",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB31113",
+        "CB31114"
+      ]
+    },
+    {
+      "code": "CB52101",
+      "name": "数理統計学概論",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB52107",
+        "CB52108"
+      ]
+    },
+    {
+      "code": "CB42103",
+      "name": "倫理学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42109",
+      "name": "社会学",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB42108",
+        "CB42109"
+      ]
+    },
+    {
+      "code": "CB42111",
+      "name": "経済と社会",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB42110",
+        "CB42111"
+      ]
+    },
+    {
+      "code": "CB34104",
+      "name": "国際事情",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB25102",
+      "name": "多文化間コミュニケーション",
+      "reason": "target_in_use",
+      "target": "CB34105"
+    },
+    {
+      "code": "CB34105",
+      "name": "流体力学の基礎",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35101",
+      "name": "多文化間コミュニケーション",
+      "reason": "target_in_use",
+      "target": "CB34105"
+    },
+    {
+      "code": "CB35102",
+      "name": "グローバルPBL",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35103",
+      "name": "海の自然災害と防災・減災",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35104",
+      "name": "イタリア語I",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB33111",
+      "name": "文化と社会の探求",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33113",
+        "CB33114"
+      ]
+    },
+    {
+      "code": "CB45101",
+      "name": "情報教育特別講義",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB13212",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13204",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13205",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13213",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB54202",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54203",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54204",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54205",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54206",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54207",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB23238",
+      "name": "経済学入門B",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32201",
+      "name": "解析学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32202",
+      "name": "解析学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32203",
+      "name": "解析学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32204",
+      "name": "解析学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31201",
+      "name": "哲学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31202",
+      "name": "倫理学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31203",
+      "name": "文学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31204",
+      "name": "芸術",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31205",
+      "name": "芸術",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31206",
+      "name": "歴史学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31207",
+      "name": "言語学・日本語科学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31208",
+      "name": "心理学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31209",
+      "name": "心理学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31210",
+      "name": "文化人類学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31211",
+      "name": "法学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31212",
+      "name": "政治学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31213",
+      "name": "インクルージョン社会",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31214",
+      "name": "エネルギーや資源と持続可能性",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31215",
+      "name": "生命と自然",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31216",
+      "name": "自然と環境",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31217",
+      "name": "情報と人間・社会",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB25201",
+      "name": "データ科学・AI概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB25216",
+      "name": "基礎朝鮮語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB25206",
+        "CB25207",
+        "CB25208"
+      ]
+    },
+    {
+      "code": "CB25217",
+      "name": "基礎朝鮮語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB25206",
+        "CB25207",
+        "CB25208"
+      ]
+    },
+    {
+      "code": "CB33211",
+      "name": "基礎ドイツ語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33211",
+        "CB33212",
+        "CB33213",
+        "CB33214",
+        "CB33215"
+      ]
+    },
+    {
+      "code": "CB33212",
+      "name": "基礎ドイツ語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33211",
+        "CB33212",
+        "CB33213",
+        "CB33214",
+        "CB33215"
+      ]
+    },
+    {
+      "code": "CB33213",
+      "name": "基礎ドイツ語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33211",
+        "CB33212",
+        "CB33213",
+        "CB33214",
+        "CB33215"
+      ]
+    },
+    {
+      "code": "CB33214",
+      "name": "基礎ドイツ語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33211",
+        "CB33212",
+        "CB33213",
+        "CB33214",
+        "CB33215"
+      ]
+    },
+    {
+      "code": "CB33215",
+      "name": "基礎ドイツ語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33211",
+        "CB33212",
+        "CB33213",
+        "CB33214",
+        "CB33215"
+      ]
+    },
+    {
+      "code": "CB33242",
+      "name": "基礎フランス語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33242",
+        "CB33243",
+        "CB33244"
+      ]
+    },
+    {
+      "code": "CB33243",
+      "name": "基礎フランス語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33242",
+        "CB33243",
+        "CB33244"
+      ]
+    },
+    {
+      "code": "CB33244",
+      "name": "基礎フランス語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33242",
+        "CB33243",
+        "CB33244"
+      ]
+    },
+    {
+      "code": "CB33206",
+      "name": "基礎スペイン語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33206",
+        "CB33207"
+      ]
+    },
+    {
+      "code": "CB33207",
+      "name": "基礎スペイン語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33206",
+        "CB33207"
+      ]
+    },
+    {
+      "code": "CB33230",
+      "name": "基礎中国語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33245",
+        "CB33246",
+        "CB33247",
+        "CB33248"
+      ]
+    },
+    {
+      "code": "CB33231",
+      "name": "基礎中国語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33245",
+        "CB33246",
+        "CB33247",
+        "CB33248"
+      ]
+    },
+    {
+      "code": "CB33232",
+      "name": "基礎中国語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33245",
+        "CB33246",
+        "CB33247",
+        "CB33248"
+      ]
+    },
+    {
+      "code": "CB33233",
+      "name": "基礎中国語II",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB33245",
+        "CB33246",
+        "CB33247",
+        "CB33248"
+      ]
+    },
+    {
+      "code": "CB34203",
+      "name": "AI、IoT時代の公共ポリシーを国際的な観点から考察する",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35201",
+      "name": "東北アジア地域研究入門",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35203",
+      "name": "文化と社会の探求",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35204",
+      "name": "グローバル学習",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35205",
+      "name": "グローバルPBL",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35206",
+      "name": "ユーラシア大陸を考える",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB35207",
+      "name": "イタリア語II",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42207",
+      "name": "国際教養特定課題",
+      "reason": "target_in_use",
+      "target": "CB15202"
+    },
+    {
+      "code": "CB42208",
+      "name": "文化理解",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42209",
+      "name": "文化理解",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42211",
+      "name": "グローバルPBL",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42204",
+      "name": "日本語B",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42224",
+      "name": "教育課程論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB43213",
+      "name": "国際事情",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB43214",
+      "name": "国際教養PBL",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB43230",
+      "name": "多文化特定課題",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB43228",
+      "name": "読んで書いて話す",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB43227",
+      "name": "日本語H",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB44203",
+      "name": "国際教養PBL",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB34201",
+        "CB34203"
+      ]
+    },
+    {
+      "code": "CB44206",
+      "name": "教育の制度と経営",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB42210",
+      "name": "多文化特定課題",
+      "reason": "target_in_use",
+      "target": "CB42208"
+    },
+    {
+      "code": "CB45201",
+      "name": "情報教育特別講義（AIをめぐる人間と社会）",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB45204",
+      "name": "福島の復興・再生",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB45205",
+      "name": "物理の思想と美学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB45206",
+      "name": "物理学の最前線と現代社会、そして未来社会",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB45208",
+      "name": "アラビア語II",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB45209",
+      "name": "多文化PBL",
+      "reason": "target_in_use",
+      "target": "CB34202"
+    },
+    {
+      "code": "CB45207",
+      "name": "多文化特定課題",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB53207",
+      "name": "国際事情",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB53208",
+      "name": "多文化PBL",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55202",
+      "name": "実践的機械学習II",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55203",
+      "name": "文化理解",
+      "reason": "target_in_use",
+      "target": "CB55207"
+    },
+    {
+      "code": "CB55205",
+      "name": "汎用的技能ワークショップ",
+      "reason": "target_in_use",
+      "target": "CB55203"
+    },
+    {
+      "code": "CB55206",
+      "name": "キャリア教育特別講義（ジャーナリズムと社会）",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55207",
+      "name": "キャリア教育特別講義（口腔保健学総論）",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55210",
+      "name": "SDGs入門",
+      "reason": "target_in_use",
+      "target": "CB55211"
+    },
+    {
+      "code": "CB55211",
+      "name": "アルゴリズミック思考の基礎",
+      "reason": "target_in_use",
+      "target": "CB55212"
+    },
+    {
+      "code": "CB13206",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13214",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13215",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13216",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13217",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13218",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB13219",
+      "name": "英語II-A",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB13204",
+        "CB13205",
+        "CB13206",
+        "CB13212",
+        "CB13213",
+        "CB13214",
+        "CB13215",
+        "CB13216",
+        "CB13217",
+        "CB13218"
+      ]
+    },
+    {
+      "code": "CB14204",
+      "name": "伝統文化と哲学",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB14212",
+      "name": "現代経済法の基礎理論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB14213",
+      "name": "現代経済法の基礎理論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB15201",
+      "name": "ナノ・マイクロ科学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB15202",
+      "name": "汎用的技能ワークショップ",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB15203",
+      "name": "多文化特定課題",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB15206",
+      "name": "Jヴィレッジ訪問",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB15207",
+      "name": "キャリアデザインA",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB15208",
+      "name": "数理統計学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB23206",
+      "name": "日本国憲法",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB24207",
+      "name": "数理統計学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB24212",
+      "name": "現代経済法の基礎理論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB24213",
+      "name": "多文化社会の探求",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB31229",
+      "name": "物理学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32207",
+      "name": "物理学概論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32208",
+      "name": "化学基礎論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB32209",
+      "name": "解析学概論",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB32206",
+        "CB32207",
+        "CB32208",
+        "CB32209"
+      ]
+    },
+    {
+      "code": "CB32210",
+      "name": "文化理解",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB34201",
+      "name": "多文化PBL",
+      "reason": "target_in_use",
+      "target": "CB34202"
+    },
+    {
+      "code": "CB34204",
+      "name": "キャリア関連",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB34205",
+      "name": "日本文化論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB54208",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54209",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB54210",
+      "name": "英語II-B",
+      "reason": "non_unique_or_none",
+      "cand": [
+        "CB54205",
+        "CB54206",
+        "CB54207",
+        "CB54208",
+        "CB54209",
+        "CB54210"
+      ]
+    },
+    {
+      "code": "CB55212",
+      "name": "グローバルリーダーシップ論",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55213",
+      "name": "アントレプレナーシップ思考",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55214",
+      "name": "グローバル特定課題",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55215",
+      "name": "体育学のすすめ",
+      "reason": "non_unique_or_none",
+      "cand": []
+    },
+    {
+      "code": "CB55216",
+      "name": "SDGs入門",
+      "reason": "target_in_use",
+      "target": "CB55211"
+    },
+    {
+      "code": "CB55217",
+      "name": "アルゴリズミック思考の基礎",
+      "reason": "target_in_use",
+      "target": "CB55212"
+    }
+  ],
+  "updated_count": 12,
+  "skip_count": 148
+}

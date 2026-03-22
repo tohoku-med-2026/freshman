@@ -1,0 +1,1781 @@
+[
+  {
+    "old_code": "CB13203",
+    "name": "英語II-A",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "mon",
+        3
+      ]
+    ],
+    "candidate_count": 63,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB13204",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB13205",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB13206",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB13212",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB13213",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB31220",
+    "name": "経済学入門A",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        1
+      ]
+    ],
+    "candidate_count": 1,
+    "recommendation": "CB31219",
+    "confidence": "high",
+    "top_candidates": [
+      {
+        "code": "CB31219",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "1",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB31229",
+    "name": "物理学概論",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        1
+      ]
+    ],
+    "candidate_count": 0,
+    "recommendation": null,
+    "confidence": "none",
+    "top_candidates": []
+  },
+  {
+    "old_code": "CB33220",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 21,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33211",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33212",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33213",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33214",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33215",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33221",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 21,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33211",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33212",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33213",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33214",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33215",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33222",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 21,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33211",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33212",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33213",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33214",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33215",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33223",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 21,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33211",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33212",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33213",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33214",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33215",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33224",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 21,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33211",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33212",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33213",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33214",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33215",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33225",
+    "name": "基礎フランス語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 13,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33242",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33243",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33244",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32240",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32241",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33226",
+    "name": "基礎フランス語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 13,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33242",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33243",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33244",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32240",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32241",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33227",
+    "name": "基礎フランス語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 13,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33242",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33243",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33244",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32240",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32241",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33228",
+    "name": "基礎スペイン語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 14,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33206",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33207",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32201",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32202",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB21203",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 1,
+        "period_hits": 0,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB33229",
+    "name": "基礎スペイン語II",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        3
+      ],
+      [
+        "fri",
+        3
+      ]
+    ],
+    "candidate_count": 14,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB33206",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB33207",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 2,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32201",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB32202",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 2,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB21203",
+        "score": 5,
+        "rows": 2,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 1,
+        "period_hits": 0,
+        "term_hits": 2
+      }
+    ]
+  },
+  {
+    "old_code": "CB35104",
+    "name": "イタリア語I",
+    "semester": "1q_1sem",
+    "wanted_slots": [
+      [
+        "wed",
+        4
+      ]
+    ],
+    "candidate_count": 1,
+    "recommendation": "CB35103",
+    "confidence": "high",
+    "top_candidates": [
+      {
+        "code": "CB35103",
+        "score": 5,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "5",
+          "term": "1セメ",
+          "score": 5
+        },
+        "day_hits": 1,
+        "period_hits": 0,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB42209",
+    "name": "文化理解",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "mon",
+        5
+      ]
+    ],
+    "candidate_count": 14,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB25209",
+        "score": 5,
+        "rows": 1,
+        "best_row": {
+          "day": "火",
+          "period": "5",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 0,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB45205",
+        "score": 5,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "5",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 0,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB55207",
+        "score": 5,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "5",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 0,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB22223",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "火",
+          "period": "2",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB33209",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "3",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB42223",
+    "name": "日本語B",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "mon",
+        5
+      ]
+    ],
+    "candidate_count": 1,
+    "recommendation": "CB42204",
+    "confidence": "medium",
+    "top_candidates": [
+      {
+        "code": "CB42204",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "2",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB43213",
+    "name": "国際事情",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "tue",
+        3
+      ]
+    ],
+    "candidate_count": 7,
+    "recommendation": "CB53204",
+    "confidence": "high",
+    "top_candidates": [
+      {
+        "code": "CB53204",
+        "score": 5,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "3",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 0,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB12202",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "2",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB41201",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "1",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB45204",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "5",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB32108",
+        "score": 0,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "1セメ",
+          "score": 0
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 0
+      }
+    ]
+  },
+  {
+    "old_code": "CB43214",
+    "name": "国際教養PBL",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "tue",
+        3
+      ]
+    ],
+    "candidate_count": 7,
+    "recommendation": "CB34203",
+    "confidence": "medium",
+    "top_candidates": [
+      {
+        "code": "CB34203",
+        "score": 3,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "4",
+          "term": "1年次3Q",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 2
+      },
+      {
+        "code": "CB34201",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "4",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB55206",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "5",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB25107",
+        "score": 2,
+        "rows": 1,
+        "best_row": {
+          "day": "火",
+          "period": "5",
+          "term": "1セメ",
+          "score": 2
+        },
+        "day_hits": 1,
+        "period_hits": 0,
+        "term_hits": 0
+      },
+      {
+        "code": "CB34104",
+        "score": 0,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "4",
+          "term": "1セメ",
+          "score": 0
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 0
+      }
+    ]
+  },
+  {
+    "old_code": "CB44203",
+    "name": "国際教養PBL",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        4
+      ]
+    ],
+    "candidate_count": 7,
+    "recommendation": "CB34203",
+    "confidence": "high",
+    "top_candidates": [
+      {
+        "code": "CB34203",
+        "score": 7,
+        "rows": 2,
+        "best_row": {
+          "day": "水",
+          "period": "4",
+          "term": "1年次3Q",
+          "score": 7
+        },
+        "day_hits": 2,
+        "period_hits": 1,
+        "term_hits": 2
+      },
+      {
+        "code": "CB34201",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB34104",
+        "score": 4,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "4",
+          "term": "1セメ",
+          "score": 4
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 0
+      },
+      {
+        "code": "CB55206",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "5",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB44108",
+        "score": 2,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "4",
+          "term": "1セメ",
+          "score": 2
+        },
+        "day_hits": 0,
+        "period_hits": 1,
+        "term_hits": 0
+      }
+    ]
+  },
+  {
+    "old_code": "CB51113",
+    "name": "英語I-B",
+    "semester": "1q_1sem",
+    "wanted_slots": [
+      [
+        "fri",
+        1
+      ]
+    ],
+    "candidate_count": 62,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB51120",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "1",
+          "term": "1セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB51121",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "1",
+          "term": "1セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB51122",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "1",
+          "term": "1セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB51123",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "1",
+          "term": "1セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB51124",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "1",
+          "term": "1セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB53207",
+    "name": "国際事情",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "wed",
+        5
+      ]
+    ],
+    "candidate_count": 7,
+    "recommendation": "CB45204",
+    "confidence": "high",
+    "top_candidates": [
+      {
+        "code": "CB45204",
+        "score": 5,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "5",
+          "term": "2セメ",
+          "score": 5
+        },
+        "day_hits": 0,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB12202",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "月",
+          "period": "2",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB41201",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "木",
+          "period": "1",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB53204",
+        "score": 3,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "3",
+          "term": "2セメ",
+          "score": 3
+        },
+        "day_hits": 0,
+        "period_hits": 0,
+        "term_hits": 1
+      },
+      {
+        "code": "CB32108",
+        "score": 2,
+        "rows": 1,
+        "best_row": {
+          "day": "水",
+          "period": "2",
+          "term": "1セメ",
+          "score": 2
+        },
+        "day_hits": 1,
+        "period_hits": 0,
+        "term_hits": 0
+      }
+    ]
+  },
+  {
+    "old_code": "CB54203",
+    "name": "英語II-B",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "fri",
+        4
+      ]
+    ],
+    "candidate_count": 61,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB54205",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54206",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54207",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54208",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54209",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      }
+    ]
+  },
+  {
+    "old_code": "CB54204",
+    "name": "英語II-B",
+    "semester": "2q_2sem",
+    "wanted_slots": [
+      [
+        "fri",
+        4
+      ]
+    ],
+    "candidate_count": 61,
+    "recommendation": null,
+    "confidence": "low",
+    "top_candidates": [
+      {
+        "code": "CB54205",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54206",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54207",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54208",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      },
+      {
+        "code": "CB54209",
+        "score": 7,
+        "rows": 1,
+        "best_row": {
+          "day": "金",
+          "period": "4",
+          "term": "2セメ",
+          "score": 7
+        },
+        "day_hits": 1,
+        "period_hits": 1,
+        "term_hits": 1
+      }
+    ]
+  }
+]

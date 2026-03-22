@@ -364,6 +364,38 @@ table td {
     margin-bottom: 8px;
 }
 
+.quick-syllabus-links {
+    margin-top: 12px;
+}
+
+.quick-syllabus-links h4 {
+    margin-bottom: 8px;
+}
+
+.quick-syllabus-links ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.quick-syllabus-links li {
+    margin-bottom: 6px;
+    overflow-wrap: anywhere;
+}
+
+.quick-syllabus-links a {
+    color: #1d5fa7;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.quick-syllabus-links a:hover {
+    color: #144a84;
+}
+
+.quick-syllabus-links a:visited {
+    color: #5b3d86;
+}
+
 .selected-courses ul {
     list-style: disc;
     padding-left: 20px;

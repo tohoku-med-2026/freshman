@@ -1,0 +1,3520 @@
+{
+  "summary": {
+    "ok": 48,
+    "code_missing": 9,
+    "name_mismatch": 96,
+    "slot_mismatch": 19
+  },
+  "total": 172,
+  "report": [
+    {
+      "code": "CB13101",
+      "name": "学問論",
+      "norm_name": "学問論",
+      "sem": "1",
+      "slots": [
+        [
+          "mon",
+          3
+        ],
+        [
+          "mon",
+          4
+        ],
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB13101', name: '学問論', credits: 2, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'mon', period: 3 }, { day: 'mon', period: 4 }, { day: 'mon', period: 5 }], requiredByDefault: true },",
+      "status": "ok"
+    },
+    {
+      "code": "CB43106",
+      "name": "自然科学総合実験",
+      "norm_name": "自然科学総合実験",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          3
+        ],
+        [
+          "thu",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB43106', name: '自然科学総合実験', credits: 2, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 3 }, { day: 'thu', period: 4 }], requiredByDefault: true },",
+      "status": "ok"
+    },
+    {
+      "code": "CB32110",
+      "name": "スポーツA",
+      "norm_name": "スポツA",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB32110', name: 'スポーツA', credits: 1, category: '基盤科目', requirementTags: ['foundationRequired'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 2 }], requiredByDefault: true },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎ドイツ語Ⅰ",
+          "day": "水",
+          "term": "1セメ"
+        },
+        {
+          "name": "基礎ドイツ語Ⅰ",
+          "day": "金",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB23105",
+      "name": "情報とデータの基礎",
+      "norm_name": "情報とデタの基礎",
+      "sem": "1",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB23105', name: '情報とデータの基礎', credits: 2, category: '先進科目', requirementTags: ['advancedRequired'], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 3 }], requiredByDefault: true },",
+      "status": "ok"
+    },
+    {
+      "code": "CB22128",
+      "name": "英語I-A",
+      "norm_name": "英語IA",
+      "sem": "1",
+      "slots": [
+        [
+          "tue",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB22128', name: '英語I-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 2 }], requiredByDefault: true },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎ドイツ語Ⅰ",
+          "day": "火",
+          "term": "1セメ"
+        },
+        {
+          "name": "基礎ドイツ語Ⅰ",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB51120",
+      "name": "英語I-B",
+      "norm_name": "英語IB",
+      "sem": "1",
+      "slots": [
+        [
+          "fri",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB51120', name: '英語I-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['1q_1sem'], slots: [{ day: 'fri', period: 1 }], requiredByDefault: true },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33114",
+      "name": "基礎ドイツ語I",
+      "norm_name": "基礎ドイツ語I",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33114', name: '基礎ドイツ語I', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文化と社会の探求",
+          "day": "水",
+          "term": "1年次1Q"
+        },
+        {
+          "name": "文化と社会の探求",
+          "day": "木",
+          "term": "1年次1Q"
+        }
+      ]
+    },
+    {
+      "code": "CB33119",
+      "name": "基礎フランス語I",
+      "norm_name": "基礎フランス語I",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33119', name: '基礎フランス語I', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎ドイツ語Ⅰ",
+          "day": "水",
+          "term": "1セメ"
+        },
+        {
+          "name": "基礎ドイツ語Ⅰ",
+          "day": "金",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB33122",
+      "name": "基礎スペイン語I",
+      "norm_name": "基礎スペイン語I",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33122', name: '基礎スペイン語I', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎フランス語Ⅰ",
+          "day": "水",
+          "term": "1セメ"
+        },
+        {
+          "name": "基礎フランス語Ⅰ",
+          "day": "金",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB33124",
+      "name": "基礎中国語I",
+      "norm_name": "基礎中国語I",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33124', name: '基礎中国語I', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎フランス語Ⅰ",
+          "day": "水",
+          "term": "1セメ"
+        },
+        {
+          "name": "基礎フランス語Ⅰ",
+          "day": "金",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25114",
+      "name": "基礎ロシア語I",
+      "norm_name": "基礎ロシア語I",
+      "sem": "1",
+      "slots": [
+        [
+          "tue",
+          5
+        ],
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB25114', name: '基礎ロシア語I', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "AIを活用したPythonプログラミングの実習と実用アプリ開発",
+          "day": "火",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25116",
+      "name": "基礎朝鮮語I",
+      "norm_name": "基礎朝鮮語I",
+      "sem": "1",
+      "slots": [
+        [
+          "tue",
+          5
+        ],
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB25116', name: '基礎朝鮮語I', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "知的財産A",
+          "day": "火",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB41111",
+      "name": "生命科学B",
+      "norm_name": "生命科学B",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB41111', name: '生命科学B', credits: 2, category: '学術基礎科目', requirementTags: ['academicRequired'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 1 }], requiredByDefault: true },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "解析学A",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB54101",
+      "name": "生命科学C",
+      "norm_name": "生命科学C",
+      "sem": "1",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54101', name: '生命科学C', credits: 2, category: '学術基礎科目', requirementTags: ['academicRequired'], semesters: ['1q_1sem'], slots: [{ day: 'fri', period: 4 }], requiredByDefault: true },",
+      "status": "ok"
+    },
+    {
+      "code": "CB21101",
+      "name": "物理学概論I",
+      "norm_name": "物理学概論I",
+      "sem": "1",
+      "slots": [
+        [
+          "tue",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB21101', name: '物理学概論I', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 1 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB31103",
+      "name": "化学A",
+      "norm_name": "化学A",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB31103', name: '化学A', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB31101",
+      "name": "線形代数学概論",
+      "norm_name": "線形代数学概論",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB31101', name: '線形代数学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "化学Ａ",
+          "day": "水",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB52101",
+      "name": "数理統計学概論",
+      "norm_name": "数理統計学概論",
+      "sem": "1",
+      "slots": [
+        [
+          "fri",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB52101', name: '数理統計学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'fri', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "物理学A",
+          "day": "金",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42101",
+      "name": "論理学",
+      "norm_name": "論理学",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42101', name: '論理学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB42103",
+      "name": "倫理学",
+      "norm_name": "倫理学",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42103', name: '倫理学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文学",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42105",
+      "name": "歴史学",
+      "norm_name": "歴史学",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42105', name: '歴史学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "言語学・日本語科学",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42109",
+      "name": "社会学",
+      "norm_name": "社会学",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42109', name: '社会学', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB42111",
+      "name": "経済と社会",
+      "norm_name": "経済と社会",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42111', name: '経済と社会', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB42113",
+      "name": "法学",
+      "norm_name": "法学",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42113', name: '法学', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "政治学",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42114",
+      "name": "政治学",
+      "norm_name": "政治学",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42114', name: '政治学', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "インクルージョン社会",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB24105",
+      "name": "生命科学A",
+      "norm_name": "生命科学A",
+      "sem": "1",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB24105', name: '生命科学A', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "地理学概論",
+          "day": "火",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB34104",
+      "name": "国際事情",
+      "norm_name": "国際事情",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB34104', name: '国際事情', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "国際教養PBL",
+          "day": "水",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25102",
+      "name": "多文化間コミュニケーション",
+      "norm_name": "多文化間コミュニケション",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB25102', name: '多文化間コミュニケーション', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "アントレプレナー入門塾",
+          "day": "火",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB34105",
+      "name": "流体力学の基礎",
+      "norm_name": "流体力学の基礎",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB34105', name: '流体力学の基礎', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "多文化間コミュニケーション",
+          "day": "水",
+          "term": "1年次1Q"
+        },
+        {
+          "name": "多文化間コミュニケーション",
+          "day": "水",
+          "term": "1年次1Q"
+        }
+      ]
+    },
+    {
+      "code": "CB35101",
+      "name": "多文化間コミュニケーション",
+      "norm_name": "多文化間コミュニケション",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35101', name: '多文化間コミュニケーション', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "グローバルPBL",
+          "day": "水",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35102",
+      "name": "グローバルPBL",
+      "norm_name": "グロバルPBL",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35102', name: 'グローバルPBL', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "日本の海岸災害と防災",
+          "day": "水",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35103",
+      "name": "海の自然災害と防災・減災",
+      "norm_name": "海の自然災害と防災減災",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35103', name: '海の自然災害と防災・減災', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "イタリア語Ⅰ",
+          "day": "水",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35104",
+      "name": "イタリア語I",
+      "norm_name": "イタリア語I",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35104', name: 'イタリア語I', credits: 2, category: '言語科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB33111",
+      "name": "文化と社会の探求",
+      "norm_name": "文化と社会の探求",
+      "sem": "1",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "thu",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB33111', name: '文化と社会の探求', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'wed', period: 3 }, { day: 'thu', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎スペイン語Ⅰ",
+          "day": "水",
+          "term": "１セメ"
+        },
+        {
+          "name": "基礎スペイン語Ⅰ",
+          "day": "金",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55101",
+      "name": "実践的機械学習I",
+      "norm_name": "実践的機械学習I",
+      "sem": "1",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55101', name: '実践的機械学習I', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB45101",
+      "name": "情報教育特別講義",
+      "norm_name": "情報教育特別講義",
+      "sem": "1",
+      "slots": [
+        [
+          "thu",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB45101', name: '情報教育特別講義', credits: 2, category: '先進科目', requirementTags: [], semesters: ['1q_1sem'], slots: [{ day: 'thu', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "情報教育特別講義（実践的量子ソリューション創出論）",
+          "day": "木",
+          "term": "1セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB13212",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13212', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }], requiredByDefault: true },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13204",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13204', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13205",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13205', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13213",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13213', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB54202",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54202', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }], requiredByDefault: true },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "グローバル学習",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB54203",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54203', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB54204",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54204', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB54205",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54205', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB54206",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54206', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB54207",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54207', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB23238",
+      "name": "経済学入門B",
+      "norm_name": "経済学入門B",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB23238', name: '経済学入門B', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ａ",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB32201",
+      "name": "解析学概論",
+      "norm_name": "解析学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB32201', name: '解析学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎スペイン語Ⅱ",
+          "day": "水",
+          "term": "2セメ"
+        },
+        {
+          "name": "基礎スペイン語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB32202",
+      "name": "解析学概論",
+      "norm_name": "解析学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB32202', name: '解析学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎スペイン語Ⅱ",
+          "day": "水",
+          "term": "2セメ"
+        },
+        {
+          "name": "基礎スペイン語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB32203",
+      "name": "解析学概論",
+      "norm_name": "解析学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB32203', name: '解析学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎ドイツ語Ⅱ",
+          "day": "水",
+          "term": "2セメ"
+        },
+        {
+          "name": "基礎ドイツ語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB32204",
+      "name": "解析学概論",
+      "norm_name": "解析学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB32204', name: '解析学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "基礎ドイツ語Ⅱ",
+          "day": "水",
+          "term": "2セメ"
+        },
+        {
+          "name": "基礎ドイツ語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31201",
+      "name": "哲学",
+      "norm_name": "哲学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31201', name: '哲学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "哲学",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31202",
+      "name": "倫理学",
+      "norm_name": "倫理学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31202', name: '倫理学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "倫理学",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31203",
+      "name": "文学",
+      "norm_name": "文学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31203', name: '文学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "文学",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31204",
+      "name": "芸術",
+      "norm_name": "芸術",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31204', name: '芸術', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "芸術",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31205",
+      "name": "芸術",
+      "norm_name": "芸術",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31205', name: '芸術', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "歴史学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31206",
+      "name": "歴史学",
+      "norm_name": "歴史学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31206', name: '歴史学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "心理学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31207",
+      "name": "言語学・日本語科学",
+      "norm_name": "言語学日本語科学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31207', name: '言語学・日本語科学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "心理学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31208",
+      "name": "心理学",
+      "norm_name": "心理学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31208', name: '心理学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文化人類学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31209",
+      "name": "心理学",
+      "norm_name": "心理学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31209', name: '心理学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "社会学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31210",
+      "name": "文化人類学",
+      "norm_name": "文化人類学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31210', name: '文化人類学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "政治学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31211",
+      "name": "法学",
+      "norm_name": "法学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31211', name: '法学', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "化学Ｂ",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31212",
+      "name": "政治学",
+      "norm_name": "政治学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31212', name: '政治学', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "地球物質科学",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31213",
+      "name": "インクルージョン社会",
+      "norm_name": "インクルジョン社会",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31213', name: 'インクルージョン社会', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "インクルージョン社会",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31214",
+      "name": "エネルギーや資源と持続可能性",
+      "norm_name": "エネルギや資源と持続可能性",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31214', name: 'エネルギーや資源と持続可能性', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "エネルギーや資源と持続可能性",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31215",
+      "name": "生命と自然",
+      "norm_name": "生命と自然",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31215', name: '生命と自然', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "生命と自然",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31216",
+      "name": "自然と環境",
+      "norm_name": "自然と環境",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31216', name: '自然と環境', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "自然と環境",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31217",
+      "name": "情報と人間・社会",
+      "norm_name": "情報と人間社会",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB31217', name: '情報と人間・社会', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水2"
+      ],
+      "evidence": [
+        {
+          "name": "情報と人間・社会",
+          "day": "水",
+          "periods": [
+            "1"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB24202",
+      "name": "物理学概論II",
+      "norm_name": "物理学概論II",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB24202', name: '物理学概論II', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "物理学B",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25201",
+      "name": "データ科学・AI概論",
+      "norm_name": "デタ科学AI概論",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB25201', name: 'データ科学・AI概論', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "火4"
+      ],
+      "evidence": [
+        {
+          "name": "データ科学・AI概論",
+          "day": "火",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25214",
+      "name": "基礎ロシア語II",
+      "norm_name": "基礎ロシア語II",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          5
+        ],
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB25214', name: '基礎ロシア語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "公開鍵系暗号技術の基礎",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25216",
+      "name": "基礎朝鮮語II",
+      "norm_name": "基礎朝鮮語II",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          5
+        ],
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB25216', name: '基礎朝鮮語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "サンスクリット語Ⅱ",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB25217",
+      "name": "基礎朝鮮語II",
+      "norm_name": "基礎朝鮮語II",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          5
+        ],
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB25217', name: '基礎朝鮮語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 5 }, { day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "多元物質科学のフロンティア",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB33211",
+      "name": "基礎ドイツ語II",
+      "norm_name": "基礎ドイツ語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33211', name: '基礎ドイツ語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33212",
+      "name": "基礎ドイツ語II",
+      "norm_name": "基礎ドイツ語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33212', name: '基礎ドイツ語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33213",
+      "name": "基礎ドイツ語II",
+      "norm_name": "基礎ドイツ語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33213', name: '基礎ドイツ語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33214",
+      "name": "基礎ドイツ語II",
+      "norm_name": "基礎ドイツ語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33214', name: '基礎ドイツ語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33215",
+      "name": "基礎ドイツ語II",
+      "norm_name": "基礎ドイツ語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33215', name: '基礎ドイツ語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33242",
+      "name": "基礎フランス語II",
+      "norm_name": "基礎フランス語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33242', name: '基礎フランス語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33243",
+      "name": "基礎フランス語II",
+      "norm_name": "基礎フランス語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33243', name: '基礎フランス語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33244",
+      "name": "基礎フランス語II",
+      "norm_name": "基礎フランス語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33244', name: '基礎フランス語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33206",
+      "name": "基礎スペイン語II",
+      "norm_name": "基礎スペイン語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33206', name: '基礎スペイン語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33207",
+      "name": "基礎スペイン語II",
+      "norm_name": "基礎スペイン語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33207', name: '基礎スペイン語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB33230",
+      "name": "基礎中国語II",
+      "norm_name": "基礎中国語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33230', name: '基礎中国語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ａ",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB33231",
+      "name": "基礎中国語II",
+      "norm_name": "基礎中国語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33231', name: '基礎中国語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ａ",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB33232",
+      "name": "基礎中国語II",
+      "norm_name": "基礎中国語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33232', name: '基礎中国語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ａ",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB33233",
+      "name": "基礎中国語II",
+      "norm_name": "基礎中国語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          3
+        ],
+        [
+          "fri",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB33233', name: '基礎中国語II', credits: 2, category: '言語科目', requirementTags: ['languageInitial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ａ",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35202",
+      "name": "情報教育特別講義（統計数理モデリング）",
+      "norm_name": "情報教育特別講義統計数理モデリング",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB35202', name: '情報教育特別講義（統計数理モデリング）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB34203",
+      "name": "AI、IoT時代の公共ポリシーを国際的な観点から考察する",
+      "norm_name": "AI、IOT時代の公共ポリシを国際的な観点から考察する",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB34203', name: 'AI、IoT時代の公共ポリシーを国際的な観点から考察する', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "国際教養PBL",
+          "day": "水",
+          "term": "1年次3Q"
+        },
+        {
+          "name": "国際教養PBL",
+          "day": "水",
+          "term": "1年次3Q"
+        }
+      ]
+    },
+    {
+      "code": "CB35201",
+      "name": "東北アジア地域研究入門",
+      "norm_name": "東北アジア地域研究入門",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35201', name: '東北アジア地域研究入門', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "月4"
+      ],
+      "evidence": [
+        {
+          "name": "東北アジア地域研究入門",
+          "day": "水",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35203",
+      "name": "文化と社会の探求",
+      "norm_name": "文化と社会の探求",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35203', name: '文化と社会の探求', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "バリューディスカバリー演習",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35204",
+      "name": "グローバル学習",
+      "norm_name": "グロバル学習",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35204', name: 'グローバル学習', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "月4"
+      ],
+      "evidence": [
+        {
+          "name": "グローバル学習",
+          "day": "水",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35205",
+      "name": "グローバルPBL",
+      "norm_name": "グロバルPBL",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35205', name: 'グローバルPBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "月4"
+      ],
+      "evidence": [
+        {
+          "name": "グローバルPBL",
+          "day": "水",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35206",
+      "name": "ユーラシア大陸を考える",
+      "norm_name": "ユラシア大陸を考える",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35206', name: 'ユーラシア大陸を考える', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "ユーラシア大陸の古今東西の文化交流",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB35207",
+      "name": "イタリア語II",
+      "norm_name": "イタリア語II",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB35207', name: 'イタリア語II', credits: 2, category: '言語科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "月4"
+      ],
+      "evidence": [
+        {
+          "name": "イタリア語Ⅱ",
+          "day": "水",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42207",
+      "name": "国際教養特定課題",
+      "norm_name": "国際教養特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB42207', name: '国際教養特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文化理解",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42208",
+      "name": "文化理解",
+      "norm_name": "文化理解",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB42208', name: '文化理解', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "多文化特定課題",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42209",
+      "name": "文化理解",
+      "norm_name": "文化理解",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB42209', name: '文化理解', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB42211",
+      "name": "グローバルPBL",
+      "norm_name": "グロバルPBL",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB42211', name: 'グローバルPBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "線形代数学B",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42204",
+      "name": "日本語B",
+      "norm_name": "日本語B",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB42204', name: '日本語B', credits: 2, category: '言語科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "月5"
+      ],
+      "evidence": [
+        {
+          "name": "日本語B",
+          "day": "木",
+          "periods": [
+            "2"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42224",
+      "name": "教育課程論",
+      "norm_name": "教育課程論",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB42224', name: '教育課程論', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ｂ",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB43213",
+      "name": "国際事情",
+      "norm_name": "国際事情",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB43213', name: '国際事情', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB43214",
+      "name": "国際教養PBL",
+      "norm_name": "国際教養PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB43214', name: '国際教養PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB43230",
+      "name": "多文化特定課題",
+      "norm_name": "多文化特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB43230', name: '多文化特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ｂ",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB43228",
+      "name": "読んで書いて話す",
+      "norm_name": "読んで書いて話す",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB43228', name: '読んで書いて話す', credits: 2, category: '言語科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ｂ",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB43227",
+      "name": "日本語H",
+      "norm_name": "日本語H",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB43227', name: '日本語H', credits: 2, category: '言語科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ｂ",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB44203",
+      "name": "国際教養PBL",
+      "norm_name": "国際教養PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB44203', name: '国際教養PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB44204",
+      "name": "多文化PBL",
+      "norm_name": "多文化PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB44204', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水4"
+      ],
+      "evidence": [
+        {
+          "name": "多文化PBL",
+          "day": "木",
+          "periods": [
+            "4"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB44206",
+      "name": "教育の制度と経営",
+      "norm_name": "教育の制度と経営",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB44206', name: '教育の制度と経営', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水4"
+      ],
+      "evidence": [
+        {
+          "name": "教育の制度と経営",
+          "day": "木",
+          "periods": [
+            "4"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB42210",
+      "name": "多文化特定課題",
+      "norm_name": "多文化特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "thu",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB42210', name: '多文化特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'thu', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "線形代数学B",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45201",
+      "name": "情報教育特別講義（AIをめぐる人間と社会）",
+      "norm_name": "情報教育特別講義AIをめぐる人間と社会",
+      "sem": "2",
+      "slots": [
+        [
+          "thu",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB45201', name: '情報教育特別講義（AIをめぐる人間と社会）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'thu', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "情報教育特別講義（AIをめぐる人間と社会の過去・現在・未来）",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45204",
+      "name": "福島の復興・再生",
+      "norm_name": "福島の復興再生",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB45204', name: '福島の復興・再生', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "国際事情",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45205",
+      "name": "物理の思想と美学",
+      "norm_name": "物理の思想と美学",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB45205', name: '物理の思想と美学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文化理解",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45206",
+      "name": "物理学の最前線と現代社会、そして未来社会",
+      "norm_name": "物理学の最前線と現代社会、そして未来社会",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB45206', name: '物理学の最前線と現代社会、そして未来社会', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "多文化PBL",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45208",
+      "name": "アラビア語II",
+      "norm_name": "アラビア語II",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB45208', name: 'アラビア語II', credits: 2, category: '言語科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "福島の復興・再生",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45209",
+      "name": "多文化PBL",
+      "norm_name": "多文化PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB45209', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "アラビア語Ⅱ",
+          "day": "木",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB45207",
+      "name": "多文化特定課題",
+      "norm_name": "多文化特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB45207', name: '多文化特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "水4"
+      ],
+      "evidence": [
+        {
+          "name": "多文化特定課題",
+          "day": "木",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB53207",
+      "name": "国際事情",
+      "norm_name": "国際事情",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB53207', name: '国際事情', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB53208",
+      "name": "多文化PBL",
+      "norm_name": "多文化PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB53208', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "英語Ⅱ−Ｂ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55202",
+      "name": "実践的機械学習II",
+      "norm_name": "実践的機械学習II",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB55202', name: '実践的機械学習II', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "slot_mismatch",
+      "unmatched_slots": [
+        "金4"
+      ],
+      "evidence": [
+        {
+          "name": "実践的機械学習Ⅱ",
+          "day": "金",
+          "periods": [
+            "5"
+          ],
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55201",
+      "name": "日本国憲法",
+      "norm_name": "日本国憲法",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55201', name: '日本国憲法', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB55203",
+      "name": "文化理解",
+      "norm_name": "文化理解",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55203', name: '文化理解', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "汎用的技能ワークショップ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55204",
+      "name": "多文化間コミュニケーション",
+      "norm_name": "多文化間コミュニケション",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55204', name: '多文化間コミュニケーション', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "キャリア教育特別講義（読売新聞・ジャーナリズムと社会）",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55205",
+      "name": "汎用的技能ワークショップ",
+      "norm_name": "汎用的技能ワクショップ",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55205', name: '汎用的技能ワークショップ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "キャリア教育特別講義（専門職キャリアのための口腔保健学総論）",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55206",
+      "name": "キャリア教育特別講義（ジャーナリズムと社会）",
+      "norm_name": "キャリア教育特別講義ジャナリズムと社会",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55206', name: 'キャリア教育特別講義（ジャーナリズムと社会）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "国際教養PBL",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55207",
+      "name": "キャリア教育特別講義（口腔保健学総論）",
+      "norm_name": "キャリア教育特別講義口腔保健学総論",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55207', name: 'キャリア教育特別講義（口腔保健学総論）', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文化理解",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55210",
+      "name": "SDGs入門",
+      "norm_name": "SDGS入門",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55210', name: 'SDGs入門', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "TIS寄附講義：AI活用時代のシステムインテグレーション技術",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55211",
+      "name": "アルゴリズミック思考の基礎",
+      "norm_name": "アルゴリズミック思考の基礎",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55211', name: 'アルゴリズミック思考の基礎', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "SDGs入門",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB13206",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13206', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13214",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13214', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13215",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13215', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13216",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13216', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13217",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13217', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13218",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13218', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB13219",
+      "name": "英語II-A",
+      "norm_name": "英語IIA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB13219', name: '英語II-A', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB14204",
+      "name": "伝統文化と哲学",
+      "norm_name": "伝統文化と哲学",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB14204', name: '伝統文化と哲学', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "化学Ｃ",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB14212",
+      "name": "現代経済法の基礎理論",
+      "norm_name": "現代経済法の基礎理論",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB14212', name: '現代経済法の基礎理論', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "キャリア関連学習",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB14213",
+      "name": "現代経済法の基礎理論",
+      "norm_name": "現代経済法の基礎理論",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB14213', name: '現代経済法の基礎理論', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "環境流体運動の基礎理論",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB15201",
+      "name": "ナノ・マイクロ科学概論",
+      "norm_name": "ナノマイクロ科学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15201', name: 'ナノ・マイクロ科学概論', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "キャリア教育特別講義（河北新報・東北を拓く新聞論）",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB15202",
+      "name": "汎用的技能ワークショップ",
+      "norm_name": "汎用的技能ワクショップ",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15202', name: '汎用的技能ワークショップ', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "国際教養特定課題",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB15203",
+      "name": "多文化特定課題",
+      "norm_name": "多文化特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15203', name: '多文化特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "キャリア関連学習",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB15204",
+      "name": "グローバル特定課題",
+      "norm_name": "グロバル特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15204', name: 'グローバル特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB15206",
+      "name": "Jヴィレッジ訪問",
+      "norm_name": "Jヴィレッジ訪問",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15206', name: 'Jヴィレッジ訪問', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "リーダーシップ開発",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB15207",
+      "name": "キャリアデザインA",
+      "norm_name": "キャリアデザインA",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15207', name: 'キャリアデザインA', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "教育学のフロンティア",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB15208",
+      "name": "数理統計学概論",
+      "norm_name": "数理統計学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "mon",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB15208', name: '数理統計学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'mon', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "身体の文化と科学",
+          "day": "月",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB23206",
+      "name": "日本国憲法",
+      "norm_name": "日本国憲法",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB23206', name: '日本国憲法', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "日本語J",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB23207",
+      "name": "文化と社会の探求",
+      "norm_name": "文化と社会の探求",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB23207', name: '文化と社会の探求', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB23208",
+      "name": "多文化間コミュニケーション",
+      "norm_name": "多文化間コミュニケション",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB23208', name: '多文化間コミュニケーション', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB23209",
+      "name": "多文化PBL",
+      "norm_name": "多文化PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB23209', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB23210",
+      "name": "グローバル特定課題",
+      "norm_name": "グロバル特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          3
+        ]
+      ],
+      "line": "{ code: 'CB23210', name: 'グローバル特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 3 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB24206",
+      "name": "天文学概論",
+      "norm_name": "天文学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB24206', name: '天文学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB24207",
+      "name": "数理統計学概論",
+      "norm_name": "数理統計学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB24207', name: '数理統計学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "地理学概論",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB24212",
+      "name": "現代経済法の基礎理論",
+      "norm_name": "現代経済法の基礎理論",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB24212', name: '現代経済法の基礎理論', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "文化と社会の探求",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB24213",
+      "name": "多文化社会の探求",
+      "norm_name": "多文化社会の探求",
+      "sem": "2",
+      "slots": [
+        [
+          "tue",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB24213', name: '多文化社会の探求', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'tue', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "多文化間コミュニケーション",
+          "day": "火",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB31219",
+      "name": "経済学入門A",
+      "norm_name": "経済学入門A",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB31219', name: '経済学入門A', credits: 2, category: '基盤科目（社会科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB31229",
+      "name": "物理学概論",
+      "norm_name": "物理学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          1
+        ]
+      ],
+      "line": "{ code: 'CB31229', name: '物理学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 1 }] },",
+      "status": "code_missing",
+      "evidence": []
+    },
+    {
+      "code": "CB32207",
+      "name": "物理学概論",
+      "norm_name": "物理学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB32207', name: '物理学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "解析学概論",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB32208",
+      "name": "化学基礎論",
+      "norm_name": "化学基礎論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB32208', name: '化学基礎論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "解析学概論",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB32209",
+      "name": "解析学概論",
+      "norm_name": "解析学概論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB32209', name: '解析学概論', credits: 2, category: '学術基礎科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB32210",
+      "name": "文化理解",
+      "norm_name": "文化理解",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          2
+        ]
+      ],
+      "line": "{ code: 'CB32210', name: '文化理解', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 2 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "線形代数学B",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB34201",
+      "name": "多文化PBL",
+      "norm_name": "多文化PBL",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB34201', name: '多文化PBL', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "国際教養PBL",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB34204",
+      "name": "キャリア関連",
+      "norm_name": "キャリア関連",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB34204', name: 'キャリア関連', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "キャリア関連学習",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB34205",
+      "name": "日本文化論",
+      "norm_name": "日本文化論",
+      "sem": "2",
+      "slots": [
+        [
+          "wed",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB34205', name: '日本文化論', credits: 2, category: '基盤科目（人文科学）', requirementTags: ['foundationHumanSocial'], semesters: ['2q_2sem'], slots: [{ day: 'wed', period: 4 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "日本及び国際のインターネット・ガバナンス",
+          "day": "水",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB54208",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54208', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB54209",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54209', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB54210",
+      "name": "英語II-B",
+      "norm_name": "英語IIB",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          4
+        ]
+      ],
+      "line": "{ code: 'CB54210', name: '英語II-B', credits: 1, category: '言語科目', requirementTags: ['languageEnglish'], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 4 }] },",
+      "status": "ok"
+    },
+    {
+      "code": "CB55212",
+      "name": "グローバルリーダーシップ論",
+      "norm_name": "グロバルリダシップ論",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55212', name: 'グローバルリーダーシップ論', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "アルゴリズミック思考の基礎",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55213",
+      "name": "アントレプレナーシップ思考",
+      "norm_name": "アントレプレナシップ思考",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55213', name: 'アントレプレナーシップ思考', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "自然科学と情報",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55214",
+      "name": "グローバル特定課題",
+      "norm_name": "グロバル特定課題",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55214', name: 'グローバル特定課題', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "化学・バイオ工学の最前線",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55215",
+      "name": "体育学のすすめ",
+      "norm_name": "体育学のすすめ",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55215', name: '体育学のすすめ', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "ギリシア語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55216",
+      "name": "SDGs入門",
+      "norm_name": "SDGS入門",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55216', name: 'SDGs入門', credits: 2, category: '基盤科目（学際科目）', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] },",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "ラテン語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    },
+    {
+      "code": "CB55217",
+      "name": "アルゴリズミック思考の基礎",
+      "norm_name": "アルゴリズミック思考の基礎",
+      "sem": "2",
+      "slots": [
+        [
+          "fri",
+          5
+        ]
+      ],
+      "line": "{ code: 'CB55217', name: 'アルゴリズミック思考の基礎', credits: 2, category: '先進科目', requirementTags: [], semesters: ['2q_2sem'], slots: [{ day: 'fri', period: 5 }] }",
+      "status": "name_mismatch",
+      "evidence": [
+        {
+          "name": "チェコ語Ⅱ",
+          "day": "金",
+          "term": "2セメ"
+        }
+      ]
+    }
+  ]
+}

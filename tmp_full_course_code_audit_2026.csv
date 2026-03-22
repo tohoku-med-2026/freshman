@@ -1,0 +1,173 @@
+code,name,semester,status,slots,note
+CB13101,学問論,1,ok,mon3;mon4;mon5,
+CB43106,自然科学総合実験,1,ok,thu3;thu4,
+CB32110,スポーツA,1,name_mismatch,wed2,同コードで授業名不一致
+CB23105,情報とデータの基礎,1,ok,tue3,
+CB22128,英語I-A,1,name_mismatch,tue2,同コードで授業名不一致
+CB51120,英語I-B,1,ok,fri1,
+CB33114,基礎ドイツ語I,1,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB33119,基礎フランス語I,1,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB33122,基礎スペイン語I,1,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB33124,基礎中国語I,1,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB25114,基礎ロシア語I,1,name_mismatch,tue5;fri5,同コードで授業名不一致
+CB25116,基礎朝鮮語I,1,name_mismatch,tue5;fri5,同コードで授業名不一致
+CB41111,生命科学B,1,name_mismatch,thu1,同コードで授業名不一致
+CB54101,生命科学C,1,ok,fri4,
+CB21101,物理学概論I,1,ok,tue1,
+CB31103,化学A,1,ok,wed1,
+CB31101,線形代数学概論,1,name_mismatch,wed1,同コードで授業名不一致
+CB52101,数理統計学概論,1,name_mismatch,fri2,同コードで授業名不一致
+CB42101,論理学,1,ok,thu2,
+CB42103,倫理学,1,name_mismatch,thu2,同コードで授業名不一致
+CB42105,歴史学,1,name_mismatch,thu2,同コードで授業名不一致
+CB42109,社会学,1,ok,thu2,
+CB42111,経済と社会,1,ok,thu2,
+CB42113,法学,1,name_mismatch,thu2,同コードで授業名不一致
+CB42114,政治学,1,name_mismatch,thu2,同コードで授業名不一致
+CB24105,生命科学A,1,name_mismatch,tue4,同コードで授業名不一致
+CB34104,国際事情,1,name_mismatch,wed4,同コードで授業名不一致
+CB25102,多文化間コミュニケーション,1,name_mismatch,wed4,同コードで授業名不一致
+CB34105,流体力学の基礎,1,name_mismatch,wed4,同コードで授業名不一致
+CB35101,多文化間コミュニケーション,1,name_mismatch,wed4,同コードで授業名不一致
+CB35102,グローバルPBL,1,name_mismatch,wed4,同コードで授業名不一致
+CB35103,海の自然災害と防災・減災,1,name_mismatch,wed4,同コードで授業名不一致
+CB35104,イタリア語I,1,code_missing,wed4,CSVにコードなし
+CB33111,文化と社会の探求,1,name_mismatch,wed3;thu1,同コードで授業名不一致
+CB55101,実践的機械学習I,1,ok,fri5,
+CB45101,情報教育特別講義,1,name_mismatch,thu5,同コードで授業名不一致
+CB13212,英語II-A,2,ok,mon3,
+CB13204,英語II-A,2,ok,mon3,
+CB13205,英語II-A,2,ok,mon3,
+CB13213,英語II-A,2,ok,mon3,
+CB54202,英語II-B,2,name_mismatch,fri4,同コードで授業名不一致
+CB54203,英語II-B,2,code_missing,fri4,CSVにコードなし
+CB54204,英語II-B,2,code_missing,fri4,CSVにコードなし
+CB54205,英語II-B,2,ok,fri4,
+CB54206,英語II-B,2,ok,fri4,
+CB54207,英語II-B,2,ok,fri4,
+CB23238,経済学入門B,2,name_mismatch,wed1,同コードで授業名不一致
+CB32201,解析学概論,2,name_mismatch,wed1,同コードで授業名不一致
+CB32202,解析学概論,2,name_mismatch,wed1,同コードで授業名不一致
+CB32203,解析学概論,2,name_mismatch,wed1,同コードで授業名不一致
+CB32204,解析学概論,2,name_mismatch,wed1,同コードで授業名不一致
+CB31201,哲学,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31202,倫理学,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31203,文学,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31204,芸術,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31205,芸術,2,name_mismatch,wed2,同コードで授業名不一致
+CB31206,歴史学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31207,言語学・日本語科学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31208,心理学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31209,心理学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31210,文化人類学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31211,法学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31212,政治学,2,name_mismatch,wed2,同コードで授業名不一致
+CB31213,インクルージョン社会,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31214,エネルギーや資源と持続可能性,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31215,生命と自然,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31216,自然と環境,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB31217,情報と人間・社会,2,slot_mismatch,wed2,曜日/講時が一致しない: 水2
+CB24202,物理学概論II,2,name_mismatch,tue4,同コードで授業名不一致
+CB25201,データ科学・AI概論,2,slot_mismatch,tue4,曜日/講時が一致しない: 火4
+CB25214,基礎ロシア語II,2,name_mismatch,tue5;fri5,同コードで授業名不一致
+CB25216,基礎朝鮮語II,2,name_mismatch,tue5;fri5,同コードで授業名不一致
+CB25217,基礎朝鮮語II,2,name_mismatch,tue5;fri5,同コードで授業名不一致
+CB33211,基礎ドイツ語II,2,ok,wed3;fri3,
+CB33212,基礎ドイツ語II,2,ok,wed3;fri3,
+CB33213,基礎ドイツ語II,2,ok,wed3;fri3,
+CB33214,基礎ドイツ語II,2,ok,wed3;fri3,
+CB33215,基礎ドイツ語II,2,ok,wed3;fri3,
+CB33242,基礎フランス語II,2,ok,wed3;fri3,
+CB33243,基礎フランス語II,2,ok,wed3;fri3,
+CB33244,基礎フランス語II,2,ok,wed3;fri3,
+CB33206,基礎スペイン語II,2,ok,wed3;fri3,
+CB33207,基礎スペイン語II,2,ok,wed3;fri3,
+CB33230,基礎中国語II,2,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB33231,基礎中国語II,2,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB33232,基礎中国語II,2,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB33233,基礎中国語II,2,name_mismatch,wed3;fri3,同コードで授業名不一致
+CB35202,情報教育特別講義（統計数理モデリング）,2,ok,wed5,
+CB34203,AI、IoT時代の公共ポリシーを国際的な観点から考察する,2,name_mismatch,mon4,同コードで授業名不一致
+CB35201,東北アジア地域研究入門,2,slot_mismatch,mon4,曜日/講時が一致しない: 月4
+CB35203,文化と社会の探求,2,name_mismatch,mon4,同コードで授業名不一致
+CB35204,グローバル学習,2,slot_mismatch,mon4,曜日/講時が一致しない: 月4
+CB35205,グローバルPBL,2,slot_mismatch,mon4,曜日/講時が一致しない: 月4
+CB35206,ユーラシア大陸を考える,2,name_mismatch,mon4,同コードで授業名不一致
+CB35207,イタリア語II,2,slot_mismatch,mon4,曜日/講時が一致しない: 月4
+CB42207,国際教養特定課題,2,name_mismatch,mon5,同コードで授業名不一致
+CB42208,文化理解,2,name_mismatch,mon5,同コードで授業名不一致
+CB42209,文化理解,2,code_missing,mon5,CSVにコードなし
+CB42211,グローバルPBL,2,name_mismatch,mon5,同コードで授業名不一致
+CB42204,日本語B,2,slot_mismatch,mon5,曜日/講時が一致しない: 月5
+CB42224,教育課程論,2,name_mismatch,mon5,同コードで授業名不一致
+CB43213,国際事情,2,code_missing,tue3,CSVにコードなし
+CB43214,国際教養PBL,2,code_missing,tue3,CSVにコードなし
+CB43230,多文化特定課題,2,name_mismatch,tue3,同コードで授業名不一致
+CB43228,読んで書いて話す,2,name_mismatch,tue3,同コードで授業名不一致
+CB43227,日本語H,2,name_mismatch,tue3,同コードで授業名不一致
+CB44203,国際教養PBL,2,code_missing,wed4,CSVにコードなし
+CB44204,多文化PBL,2,slot_mismatch,wed4,曜日/講時が一致しない: 水4
+CB44206,教育の制度と経営,2,slot_mismatch,wed4,曜日/講時が一致しない: 水4
+CB42210,多文化特定課題,2,name_mismatch,thu2,同コードで授業名不一致
+CB45201,情報教育特別講義（AIをめぐる人間と社会）,2,name_mismatch,thu5,同コードで授業名不一致
+CB45204,福島の復興・再生,2,name_mismatch,wed5,同コードで授業名不一致
+CB45205,物理の思想と美学,2,name_mismatch,wed5,同コードで授業名不一致
+CB45206,物理学の最前線と現代社会、そして未来社会,2,name_mismatch,wed5,同コードで授業名不一致
+CB45208,アラビア語II,2,name_mismatch,wed5,同コードで授業名不一致
+CB45209,多文化PBL,2,name_mismatch,wed4,同コードで授業名不一致
+CB45207,多文化特定課題,2,slot_mismatch,wed4,曜日/講時が一致しない: 水4
+CB53207,国際事情,2,code_missing,wed5,CSVにコードなし
+CB53208,多文化PBL,2,name_mismatch,wed5,同コードで授業名不一致
+CB55202,実践的機械学習II,2,slot_mismatch,fri4,曜日/講時が一致しない: 金4
+CB55201,日本国憲法,2,ok,fri5,
+CB55203,文化理解,2,name_mismatch,fri5,同コードで授業名不一致
+CB55204,多文化間コミュニケーション,2,name_mismatch,fri5,同コードで授業名不一致
+CB55205,汎用的技能ワークショップ,2,name_mismatch,fri5,同コードで授業名不一致
+CB55206,キャリア教育特別講義（ジャーナリズムと社会）,2,name_mismatch,fri5,同コードで授業名不一致
+CB55207,キャリア教育特別講義（口腔保健学総論）,2,name_mismatch,fri5,同コードで授業名不一致
+CB55210,SDGs入門,2,name_mismatch,fri5,同コードで授業名不一致
+CB55211,アルゴリズミック思考の基礎,2,name_mismatch,fri5,同コードで授業名不一致
+CB13206,英語II-A,2,ok,mon3,
+CB13214,英語II-A,2,ok,mon3,
+CB13215,英語II-A,2,ok,mon3,
+CB13216,英語II-A,2,ok,mon3,
+CB13217,英語II-A,2,ok,mon3,
+CB13218,英語II-A,2,ok,mon3,
+CB13219,英語II-A,2,ok,mon3,
+CB14204,伝統文化と哲学,2,name_mismatch,mon4,同コードで授業名不一致
+CB14212,現代経済法の基礎理論,2,name_mismatch,mon4,同コードで授業名不一致
+CB14213,現代経済法の基礎理論,2,name_mismatch,mon4,同コードで授業名不一致
+CB15201,ナノ・マイクロ科学概論,2,name_mismatch,mon5,同コードで授業名不一致
+CB15202,汎用的技能ワークショップ,2,name_mismatch,mon5,同コードで授業名不一致
+CB15203,多文化特定課題,2,name_mismatch,mon5,同コードで授業名不一致
+CB15204,グローバル特定課題,2,ok,mon5,
+CB15206,Jヴィレッジ訪問,2,name_mismatch,mon5,同コードで授業名不一致
+CB15207,キャリアデザインA,2,name_mismatch,mon5,同コードで授業名不一致
+CB15208,数理統計学概論,2,name_mismatch,mon5,同コードで授業名不一致
+CB23206,日本国憲法,2,name_mismatch,tue3,同コードで授業名不一致
+CB23207,文化と社会の探求,2,ok,tue3,
+CB23208,多文化間コミュニケーション,2,ok,tue3,
+CB23209,多文化PBL,2,ok,tue3,
+CB23210,グローバル特定課題,2,ok,tue3,
+CB24206,天文学概論,2,ok,tue4,
+CB24207,数理統計学概論,2,name_mismatch,tue4,同コードで授業名不一致
+CB24212,現代経済法の基礎理論,2,name_mismatch,tue4,同コードで授業名不一致
+CB24213,多文化社会の探求,2,name_mismatch,tue4,同コードで授業名不一致
+CB31219,経済学入門A,2,ok,wed1,
+CB31229,物理学概論,2,code_missing,wed1,CSVにコードなし
+CB32207,物理学概論,2,name_mismatch,wed2,同コードで授業名不一致
+CB32208,化学基礎論,2,name_mismatch,wed2,同コードで授業名不一致
+CB32209,解析学概論,2,ok,wed2,
+CB32210,文化理解,2,name_mismatch,wed2,同コードで授業名不一致
+CB34201,多文化PBL,2,name_mismatch,wed4,同コードで授業名不一致
+CB34204,キャリア関連,2,name_mismatch,wed4,同コードで授業名不一致
+CB34205,日本文化論,2,name_mismatch,wed4,同コードで授業名不一致
+CB54208,英語II-B,2,ok,fri4,
+CB54209,英語II-B,2,ok,fri4,
+CB54210,英語II-B,2,ok,fri4,
+CB55212,グローバルリーダーシップ論,2,name_mismatch,fri5,同コードで授業名不一致
+CB55213,アントレプレナーシップ思考,2,name_mismatch,fri5,同コードで授業名不一致
+CB55214,グローバル特定課題,2,name_mismatch,fri5,同コードで授業名不一致
+CB55215,体育学のすすめ,2,name_mismatch,fri5,同コードで授業名不一致
+CB55216,SDGs入門,2,name_mismatch,fri5,同コードで授業名不一致
+CB55217,アルゴリズミック思考の基礎,2,name_mismatch,fri5,同コードで授業名不一致

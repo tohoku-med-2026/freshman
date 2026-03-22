@@ -1,0 +1,181 @@
+{
+  "updated_lines": 161,
+  "name_fixed": 161,
+  "slot_fixed": 3,
+  "code_missing_in_csv": 1,
+  "post_name_mismatch": 1,
+  "post_slot_mismatch": 0,
+  "sample_code_missing": [
+    {
+      "line": 131,
+      "code": "CB34203",
+      "sem": "2q_2sem",
+      "name": "国際教養PBL"
+    }
+  ],
+  "sample_name_fixed": [
+    {
+      "line": 47,
+      "code": "CB13101",
+      "sem": "1q_1sem",
+      "from": "学問論",
+      "to": "Introduction to Academic Learning"
+    },
+    {
+      "line": 48,
+      "code": "CB43106",
+      "sem": "1q_1sem",
+      "from": "自然科学総合実験",
+      "to": "Introductory Science Experiments"
+    },
+    {
+      "line": 49,
+      "code": "CB32128",
+      "sem": "1q_1sem",
+      "from": "スポーツＡ",
+      "to": "Sports A"
+    },
+    {
+      "line": 50,
+      "code": "CB23105",
+      "sem": "1q_1sem",
+      "from": "情報とデータの基礎",
+      "to": "Information and Data Literacy"
+    },
+    {
+      "line": 51,
+      "code": "CB22131",
+      "sem": "1q_1sem",
+      "from": "英語Ⅰ−Ａ",
+      "to": "English I-A"
+    },
+    {
+      "line": 52,
+      "code": "CB51120",
+      "sem": "1q_1sem",
+      "from": "英語Ⅰ−Ｂ",
+      "to": "English I-B"
+    },
+    {
+      "line": 53,
+      "code": "CB33116",
+      "sem": "1q_1sem",
+      "from": "基礎ドイツ語Ⅰ",
+      "to": "Basic German I"
+    },
+    {
+      "line": 54,
+      "code": "CB33122",
+      "sem": "1q_1sem",
+      "from": "基礎フランス語Ⅰ",
+      "to": "Basic French I"
+    },
+    {
+      "line": 55,
+      "code": "CB33110",
+      "sem": "1q_1sem",
+      "from": "基礎スペイン語Ⅰ",
+      "to": "Basic Spanish I"
+    },
+    {
+      "line": 56,
+      "code": "CB33125",
+      "sem": "1q_1sem",
+      "from": "基礎中国語Ⅰ",
+      "to": "Basic Chinese I"
+    },
+    {
+      "line": 57,
+      "code": "CB25103",
+      "sem": "1q_1sem",
+      "from": "基礎ロシア語Ⅰ",
+      "to": "Basic Russian I"
+    },
+    {
+      "line": 58,
+      "code": "CB25105",
+      "sem": "1q_1sem",
+      "from": "基礎朝鮮語Ⅰ",
+      "to": "Basic Korean I"
+    },
+    {
+      "line": 59,
+      "code": "CB41101",
+      "sem": "1q_1sem",
+      "from": "生命科学B",
+      "to": "Biology B"
+    },
+    {
+      "line": 60,
+      "code": "CB54101",
+      "sem": "1q_1sem",
+      "from": "生命科学C",
+      "to": "Biology C"
+    },
+    {
+      "line": 61,
+      "code": "CB21101",
+      "sem": "1q_1sem",
+      "from": "物理学概論Ⅰ",
+      "to": "Foundations of Physics I"
+    },
+    {
+      "line": 62,
+      "code": "CB31103",
+      "sem": "1q_1sem",
+      "from": "化学Ａ",
+      "to": "Chemistry A"
+    },
+    {
+      "line": 63,
+      "code": "CB31113",
+      "sem": "1q_1sem",
+      "from": "線形代数学概論",
+      "to": "Foundations of Linear Algebra"
+    },
+    {
+      "line": 64,
+      "code": "CB52101",
+      "sem": "1q_1sem",
+      "from": "物理学A",
+      "to": "Physics A"
+    },
+    {
+      "line": 65,
+      "code": "CB42101",
+      "sem": "1q_1sem",
+      "from": "論理学",
+      "to": "Logic"
+    },
+    {
+      "line": 66,
+      "code": "CB42103",
+      "sem": "1q_1sem",
+      "from": "文学",
+      "to": "Literature"
+    }
+  ],
+  "sample_slot_fixed": [
+    {
+      "line": 47,
+      "code": "CB13101",
+      "sem": "1q_1sem",
+      "from": "{ day: 'mon', period: 3 }, { day: 'mon', period: 4 }, { day: 'mon', period: 5 }",
+      "to": "{ day: 'mon', period: 3 }"
+    },
+    {
+      "line": 48,
+      "code": "CB43106",
+      "sem": "1q_1sem",
+      "from": "{ day: 'thu', period: 3 }, { day: 'thu', period: 4 }",
+      "to": "{ day: 'thu', period: 3 }"
+    },
+    {
+      "line": 78,
+      "code": "CB33111",
+      "sem": "1q_1sem",
+      "from": "{ day: 'wed', period: 3 }, { day: 'fri', period: 3 }",
+      "to": "{ day: 'fri', period: 3 }"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "updated_lines": 3,
+  "name_fixed": 0,
+  "slot_fixed": 3,
+  "code_missing_in_csv": 1,
+  "post_name_mismatch": 0,
+  "post_slot_mismatch": 0,
+  "missing_samples": [
+    [
+      131,
+      "CB34203",
+      "2q_2sem",
+      "国際教養PBL"
+    ]
+  ]
+}

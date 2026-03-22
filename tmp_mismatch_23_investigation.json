@@ -1,0 +1,941 @@
+[
+  {
+    "old_code": "CB13203",
+    "name": "英語II-A",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB31220",
+    "name": "経済学入門A",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 1
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB31229",
+    "name": "物理学概論",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 1
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33220",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33221",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33222",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33223",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33224",
+    "name": "基礎ドイツ語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33225",
+    "name": "基礎フランス語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33226",
+    "name": "基礎フランス語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33227",
+    "name": "基礎フランス語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33228",
+    "name": "基礎スペイン語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB33229",
+    "name": "基礎スペイン語II",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB35104",
+    "name": "イタリア語I",
+    "semester": "1q_1sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 4
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB42209",
+    "name": "文化理解",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 5
+      }
+    ],
+    "same_name_row_count": 14,
+    "candidate_codes": [
+      {
+        "candidate_code": "CB25209",
+        "max_score": 5,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "火",
+            "period": "5",
+            "term": "2セメ",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB45205",
+        "max_score": 5,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "5",
+            "term": "2セメ",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB55207",
+        "max_score": 5,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "5",
+            "term": "2セメ",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB22223",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "火",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB33209",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "3",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB42206",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB42207",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB52204",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB54201",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "4",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB55103",
+        "max_score": 2,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "5",
+            "term": "1セメ",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB24112",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "火",
+            "period": "4",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB24113",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "火",
+            "period": "4",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB44109",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "4",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB52106",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "2",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB42223",
+    "name": "日本語B",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 5
+      }
+    ],
+    "same_name_row_count": 1,
+    "candidate_codes": [
+      {
+        "candidate_code": "CB42204",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "recommended_code": "CB42204"
+  },
+  {
+    "old_code": "CB43213",
+    "name": "国際事情",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 7,
+    "candidate_codes": [
+      {
+        "candidate_code": "CB53204",
+        "max_score": 5,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "3",
+            "term": "2セメ",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB12202",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "月",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB41201",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "1",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB45204",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "5",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB32108",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "2",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB41102",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "1",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB45111",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "5",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "recommended_code": "CB53204"
+  },
+  {
+    "old_code": "CB43214",
+    "name": "国際教養PBL",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 3
+      }
+    ],
+    "same_name_row_count": 8,
+    "candidate_codes": [
+      {
+        "candidate_code": "CB34201",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "4",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB34203",
+        "max_score": 3,
+        "rows": 2,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "4",
+            "term": "1年次3Q",
+            "score": 3
+          },
+          {
+            "day": "水",
+            "period": "5",
+            "term": "1年次3Q",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB55206",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "5",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB25107",
+        "max_score": 2,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "火",
+            "period": "5",
+            "term": "1セメ",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB34104",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "4",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB42120",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "2",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB44108",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "4",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB44203",
+    "name": "国際教養PBL",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 4
+      }
+    ],
+    "same_name_row_count": 8,
+    "candidate_codes": [
+      {
+        "candidate_code": "CB34201",
+        "max_score": 7,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "4",
+            "term": "2セメ",
+            "score": 7
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB34203",
+        "max_score": 7,
+        "rows": 2,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "4",
+            "term": "1年次3Q",
+            "score": 7
+          },
+          {
+            "day": "水",
+            "period": "5",
+            "term": "1年次3Q",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB34104",
+        "max_score": 4,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "4",
+            "term": "1セメ",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB55206",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "5",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB44108",
+        "max_score": 2,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "4",
+            "term": "1セメ",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB25107",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "火",
+            "period": "5",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB42120",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "2",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB51113",
+    "name": "英語I-B",
+    "semester": "1q_1sem",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 1
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB53207",
+    "name": "国際事情",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 5
+      }
+    ],
+    "same_name_row_count": 7,
+    "candidate_codes": [
+      {
+        "candidate_code": "CB45204",
+        "max_score": 5,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "5",
+            "term": "2セメ",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB12202",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "月",
+            "period": "2",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB41201",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "1",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB53204",
+        "max_score": 3,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "金",
+            "period": "3",
+            "term": "2セメ",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB32108",
+        "max_score": 2,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "水",
+            "period": "2",
+            "term": "1セメ",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB45111",
+        "max_score": 2,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "5",
+            "term": "1セメ",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "candidate_code": "CB41102",
+        "max_score": 0,
+        "rows": 1,
+        "evidence": [
+          {
+            "day": "木",
+            "period": "1",
+            "term": "1セメ",
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "recommended_code": "CB45204"
+  },
+  {
+    "old_code": "CB54203",
+    "name": "英語II-B",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 4
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  },
+  {
+    "old_code": "CB54204",
+    "name": "英語II-B",
+    "semester": "2q_2sem",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 4
+      }
+    ],
+    "same_name_row_count": 0,
+    "candidate_codes": [],
+    "recommended_code": null
+  }
+]
