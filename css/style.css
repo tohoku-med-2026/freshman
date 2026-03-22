@@ -73,6 +73,11 @@ table td {
     text-decoration: underline;
 }
 
+#schedule .schedule-source a {
+    color: #1d5fa7;
+    text-decoration: underline;
+}
+
 .timetable-controls {
     display: flex;
     align-items: center;
